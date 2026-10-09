@@ -33,8 +33,25 @@ async function init(){
  const responses=await Promise.all([fetch('data/catalog.json'),fetch('data/settings.json')]);
  if(responses.some(r=>!r.ok))throw Error('Catalog unavailable');
  [catalog,settings]=await Promise.all(responses.map(r=>r.json()));
- const hero=catalog.products.find(p=>p.source.k==='ebike'&&p.variants.some(v=>v.name==='Verde'))??catalog.products[0];
- const hv=hero.variants.find(v=>v.name==='Verde')??hero.variants[0];$('#hero-image').src=hv.image;$('#hero-image').alt=hero.name+' · '+hv.name;$('#hero-name').textContent=hero.name;
+ const heroSlides = [
+  {category:'Triciclos',id:'producto-42'},
+  {category:'Kits de paneles solares',id:'producto-57'},
+  {category:'Motos',id:'producto-14'},
+  {category:'Dirt bikes',id:'producto-61'},
+  {category:'Bicis eléctricas',id:'producto-68',color:'Verde'}
+ ].map(slide=>({...slide,product:catalog.products.find(p=>p.id===slide.id)})).filter(slide=>slide.product);
+ let heroIndex=0;
+ const showHeroSlide=()=>{
+  const slide=heroSlides[heroIndex],product=slide.product;
+  const photo=product.variants.find(v=>v.name===slide.color)??product.variants[0];
+  $('#hero-image').src=photo.image;
+  $('#hero-image').alt=slide.category+' · '+product.name+' · '+photo.name;
+  $('#hero-name').textContent=product.name;
+  $('.art-label').textContent=slide.category.toUpperCase();
+ };
+ heroSlides.forEach(slide=>{const photo=slide.product.variants.find(v=>v.name===slide.color)??slide.product.variants[0];const image=new Image();image.src=photo.image;});
+ showHeroSlide();
+ setInterval(()=>{heroIndex=(heroIndex+1)%heroSlides.length;showHeroSlide();},3000);
  $('#categories').innerHTML=[{id:'all',name:'Todos'},...catalog.categories].map(c=>`<button data-category="${c.id}" aria-pressed="${c.id==='all'}">${esc(c.name)}</button>`).join('');
  $('#contact-fields').innerHTML=settings.whatsapp?whatsapp(): '<p><b>WhatsApp:</b> pendiente de completar</p>';
  $('#contact-fields').innerHTML+=`<p><b>Email:</b> ${settings.email?`<a href="mailto:${esc(settings.email)}">${esc(settings.email)}</a>`:'pendiente de completar'}</p><p><b>Dirección:</b> ${esc(settings.address||'pendiente de completar')}</p>`;
