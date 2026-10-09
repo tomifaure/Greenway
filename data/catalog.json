@@ -1,0 +1,5133 @@
+{
+  "currency": "USD",
+  "source": "Fast Motors Miami · catálogo adjunto",
+  "categories": [
+    {
+      "id": "kits",
+      "name": "Kits solares"
+    },
+    {
+      "id": "triciclos",
+      "name": "Triciclos"
+    },
+    {
+      "id": "motos",
+      "name": "Motos"
+    },
+    {
+      "id": "electricas",
+      "name": "Motos eléctricas"
+    },
+    {
+      "id": "atv",
+      "name": "Cuatrimotores"
+    },
+    {
+      "id": "bicis",
+      "name": "Bicis y dirt bikes"
+    },
+    {
+      "id": "equipos",
+      "name": "Baterías e inversores"
+    }
+  ],
+  "products": [
+    {
+      "id": "producto-1",
+      "name": "Flash 50 cc",
+      "brand": "",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 2600,
+      "financedPrice": 2800,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__flash-50-azul.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos__flash-50-gris.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__flash-50-rojo.jpg"
+        },
+        {
+          "name": "Amarillo",
+          "color": "#f2c200",
+          "image": "f/fotos__flash-50-amarillo.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos__flash-50-blanco.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__flash-50-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Flash",
+        "cc": 50,
+        "p": 2600,
+        "f": 2800,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__flash-50-azul.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos__flash-50-gris.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__flash-50-rojo.jpg"
+          },
+          {
+            "n": "Amarillo",
+            "h": "#f2c200",
+            "i": "f/fotos__flash-50-amarillo.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos__flash-50-blanco.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__flash-50-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-2",
+      "name": "Italica Mini Tank 50 cc",
+      "brand": "Italica",
+      "category": "motos",
+      "description": "Scooter automática CVT · 49cc 4 tiempos · freno de disco delantero · llantas 110/90-10 · tablero digital · baúl trasero",
+      "cashPrice": 2600,
+      "financedPrice": 2800,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__mini-tank-50-azul.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__mini-tank-50-rojo.jpg"
+        },
+        {
+          "name": "Crema",
+          "color": "#e9d9b8",
+          "image": "f/fotos2__mini-tank-50-crema.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__mini-tank-50-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Italica",
+        "m": "Mini Tank",
+        "cc": 50,
+        "p": 2600,
+        "f": 2800,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 49cc 4 tiempos · freno de disco delantero · llantas 110/90-10 · tablero digital · baúl trasero",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__mini-tank-50-azul.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__mini-tank-50-rojo.jpg"
+          },
+          {
+            "n": "Crema",
+            "h": "#e9d9b8",
+            "i": "f/fotos2__mini-tank-50-crema.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__mini-tank-50-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-3",
+      "name": "Vitacci Focus 50 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática CVT · 49.6cc 4 tiempos · freno de disco delantero · vel. máx. 65 km/h · baúl trasero, puerto USB y alarma",
+      "cashPrice": 2600,
+      "financedPrice": 2800,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__focus-50-rojo.jpg"
+        },
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos__focus-50-naranja.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos__focus-50-blanco.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3a9b35",
+          "image": "f/fotos__focus-50-verde.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__focus-50-azul.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__focus-50-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Focus",
+        "cc": 50,
+        "p": 2600,
+        "f": 2800,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 49.6cc 4 tiempos · freno de disco delantero · vel. máx. 65 km/h · baúl trasero, puerto USB y alarma",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__focus-50-rojo.jpg"
+          },
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos__focus-50-naranja.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos__focus-50-blanco.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3a9b35",
+            "i": "f/fotos__focus-50-verde.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__focus-50-azul.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__focus-50-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-4",
+      "name": "Xmox GN 125 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 3600,
+      "financedPrice": 3800,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos__gn-125-gris.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__gn-125-rojo.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__gn-125-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "GN",
+        "cc": 125,
+        "p": 3600,
+        "f": 3800,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos__gn-125-gris.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__gn-125-rojo.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__gn-125-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-5",
+      "name": "Suzuki GN 125 cc",
+      "brand": "Suzuki",
+      "category": "motos",
+      "description": "125cc · 5 velocidades manual · arranque eléctrico · freno de disco delantero · rines 18\" y 16\"",
+      "cashPrice": null,
+      "financedPrice": null,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__suzuki-gn-125-negro.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__suzuki-gn-125-rojo.jpg"
+        }
+      ],
+      "source": {
+        "b": "Suzuki",
+        "m": "GN",
+        "cc": 125,
+        "p": null,
+        "f": null,
+        "n": "",
+        "d": "",
+        "k": "moto",
+        "s": "125cc · 5 velocidades manual · arranque eléctrico · freno de disco delantero · rines 18\" y 16\"",
+        "e": "alt",
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__suzuki-gn-125-negro.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__suzuki-gn-125-rojo.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-6",
+      "name": "Vitacci Focus 150 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática CVT · 150cc 4 tiempos · freno de disco delantero · vel. máx. 93 km/h · baúl trasero, puerto USB y alarma",
+      "cashPrice": 3300,
+      "financedPrice": 3500,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__focus-150-rojo.jpg"
+        },
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos__focus-150-naranja.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3a9b35",
+          "image": "f/fotos__focus-150-verde.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__focus-150-azul.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__focus-150-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Focus",
+        "cc": 150,
+        "p": 3300,
+        "f": 3500,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 150cc 4 tiempos · freno de disco delantero · vel. máx. 93 km/h · baúl trasero, puerto USB y alarma",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__focus-150-rojo.jpg"
+          },
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos__focus-150-naranja.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3a9b35",
+            "i": "f/fotos__focus-150-verde.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__focus-150-azul.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__focus-150-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-7",
+      "name": "Vitacci Viper 150 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática CVT · 150cc 4 tiempos · freno de disco delantero · vel. máx. 93 km/h · baúl trasero, puerto USB y alarma",
+      "cashPrice": 3300,
+      "financedPrice": 3500,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__viper-150-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__viper-150-azul.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3a9b35",
+          "image": "f/fotos2__viper-150-verde.jpg"
+        },
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos2__viper-150-naranja.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos2__viper-150-blanco.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__viper-150-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Viper",
+        "cc": 150,
+        "p": 3300,
+        "f": 3500,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 150cc 4 tiempos · freno de disco delantero · vel. máx. 93 km/h · baúl trasero, puerto USB y alarma",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__viper-150-rojo.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__viper-150-azul.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3a9b35",
+            "i": "f/fotos2__viper-150-verde.jpg"
+          },
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos2__viper-150-naranja.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos2__viper-150-blanco.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__viper-150-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-8",
+      "name": "Italica Bella 150 cc",
+      "brand": "Italica",
+      "category": "motos",
+      "description": "Scooter clásica automática CVT · 149cc 4 tiempos · freno de disco delantero · llantas 120/70-12",
+      "cashPrice": 3400,
+      "financedPrice": 3600,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-60",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Crema",
+          "color": "#e9d9b8",
+          "image": "f/fotos__bella-150-crema.jpg"
+        },
+        {
+          "name": "Celeste",
+          "color": "#9fd3dc",
+          "image": "f/fotos__bella-150-celeste.jpg"
+        },
+        {
+          "name": "Rosa",
+          "color": "#f2b8c0",
+          "image": "f/fotos__bella-150-rosa.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos__bella-150-blanco.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos__bella-150-gris.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__bella-150-azul.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__bella-150-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Italica",
+        "m": "Bella",
+        "cc": 150,
+        "p": 3400,
+        "f": 3600,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-60",
+        "k": "moto",
+        "s": "Scooter clásica automática CVT · 149cc 4 tiempos · freno de disco delantero · llantas 120/70-12",
+        "c": [
+          {
+            "n": "Crema",
+            "h": "#e9d9b8",
+            "i": "f/fotos__bella-150-crema.jpg"
+          },
+          {
+            "n": "Celeste",
+            "h": "#9fd3dc",
+            "i": "f/fotos__bella-150-celeste.jpg"
+          },
+          {
+            "n": "Rosa",
+            "h": "#f2b8c0",
+            "i": "f/fotos__bella-150-rosa.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos__bella-150-blanco.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos__bella-150-gris.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__bella-150-azul.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__bella-150-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-9",
+      "name": "Italica Trooper 150 cc",
+      "brand": "Italica",
+      "category": "motos",
+      "description": "Scooter automática CVT · 149cc 4 tiempos · frenos de disco delantero y trasero · llantas 130/70-12",
+      "cashPrice": 3400,
+      "financedPrice": 3600,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-60",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__trooper-150-rojo.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__trooper-150-negro.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos2__trooper-150-gris.jpg"
+        },
+        {
+          "name": "Crema",
+          "color": "#e9d9b8",
+          "image": "f/fotos2__trooper-150-crema.jpg"
+        }
+      ],
+      "source": {
+        "b": "Italica",
+        "m": "Trooper",
+        "cc": 150,
+        "p": 3400,
+        "f": 3600,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-60",
+        "k": "moto",
+        "s": "Scooter automática CVT · 149cc 4 tiempos · frenos de disco delantero y trasero · llantas 130/70-12",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__trooper-150-rojo.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__trooper-150-negro.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos2__trooper-150-gris.jpg"
+          },
+          {
+            "n": "Crema",
+            "h": "#e9d9b8",
+            "i": "f/fotos2__trooper-150-crema.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-10",
+      "name": "Xmox Angel 150 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 3300,
+      "financedPrice": 3500,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__angel-150-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__angel-150-azul.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "Angel",
+        "cc": 150,
+        "p": 3300,
+        "f": 3500,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__angel-150-rojo.jpg",
+            "bg": "#c2bfbd"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__angel-150-azul.jpg",
+            "bg": "#cfcccb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-11",
+      "name": "Vitacci Falcon 200 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Moto deportiva automática CVT · inyección electrónica (EFI) · frenos de disco delantero y trasero · llantas 110/70-17 y 120/70-14 · vel. máx. 100 km/h",
+      "cashPrice": 4400,
+      "financedPrice": 4600,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__falcon-200-azul.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos__falcon-200-blanco.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__falcon-200-negro.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__falcon-200-rojo.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Falcon",
+        "cc": 200,
+        "p": 4400,
+        "f": 4600,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Moto deportiva automática CVT · inyección electrónica (EFI) · frenos de disco delantero y trasero · llantas 110/70-17 y 120/70-14 · vel. máx. 100 km/h",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__falcon-200-azul.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos__falcon-200-blanco.jpg",
+            "bg": "#dbdde7",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__falcon-200-negro.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__falcon-200-rojo.jpg",
+            "bg": "#dfe2e8",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-12",
+      "name": "Vitacci Intrepid 200 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática CVT · frenos de disco delantero y trasero · llantas 110/70-13 y 130/60-13 · vel. máx. 102 km/h · tanque de 13 L · baúl trasero y llave inteligente",
+      "cashPrice": 3600,
+      "financedPrice": 3800,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__intrepid-200-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__intrepid-200-azul.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__intrepid-200-negro.jpg"
+        },
+        {
+          "name": "Champán",
+          "color": "#b8a88a",
+          "image": "f/fotos__intrepid-200-champan.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Intrepid",
+        "cc": 200,
+        "p": 3600,
+        "f": 3800,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · frenos de disco delantero y trasero · llantas 110/70-13 y 130/60-13 · vel. máx. 102 km/h · tanque de 13 L · baúl trasero y llave inteligente",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__intrepid-200-rojo.jpg",
+            "bg": "#e9ecee",
+            "cv": 1
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__intrepid-200-azul.jpg",
+            "bg": "#e7e9ee",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__intrepid-200-negro.jpg",
+            "bg": "#eaecee",
+            "cv": 1
+          },
+          {
+            "n": "Champán",
+            "h": "#b8a88a",
+            "i": "f/fotos__intrepid-200-champan.jpg",
+            "bg": "#e6e8ed",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-13",
+      "name": "Vitacci Eagle 200 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática CVT · 168.9cc 4 tiempos · carburador · frenos de disco delantero y trasero · llantas 130/60-13 · vel. máx. 95 km/h · tanque de 7.5 L",
+      "cashPrice": 3500,
+      "financedPrice": 3700,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Champán",
+          "color": "#b8a88a",
+          "image": "f/fotos__eagle-200-champan.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__eagle-200-negro.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__eagle-200-azul.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__eagle-200-rojo.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos__eagle-200-blanco.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Eagle",
+        "cc": 200,
+        "p": 3500,
+        "f": 3700,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 168.9cc 4 tiempos · carburador · frenos de disco delantero y trasero · llantas 130/60-13 · vel. máx. 95 km/h · tanque de 7.5 L",
+        "c": [
+          {
+            "n": "Champán",
+            "h": "#b8a88a",
+            "i": "f/fotos__eagle-200-champan.jpg",
+            "bg": "#dcdfe4",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__eagle-200-negro.jpg",
+            "bg": "#edefee",
+            "cv": 1
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__eagle-200-azul.jpg",
+            "bg": "#e6e7e8",
+            "cv": 1
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__eagle-200-rojo.jpg",
+            "bg": "#e8eaeb",
+            "cv": 1
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos__eagle-200-blanco.jpg",
+            "bg": "#e5e7e8",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-14",
+      "name": "Italica Supra 200 cc",
+      "brand": "Italica",
+      "category": "motos",
+      "description": "Scooter tipo adventure automática CVT · 169cc 4 tiempos · carburador · frenos de disco CBS delantero y trasero · llantas 110/80-14 y 130/70-13 · vel. máx. 105 km/h · tanque de 13 L · tablero digital y llave inteligente",
+      "cashPrice": 4250,
+      "financedPrice": 4450,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-60",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__supra-200-rojo.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos2__supra-200-blanco.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos2__supra-200-gris.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__supra-200-negro.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f6fd0",
+          "image": "f/fotos2__supra-200-azul.jpg"
+        }
+      ],
+      "source": {
+        "b": "Italica",
+        "m": "Supra",
+        "cc": 200,
+        "p": 4250,
+        "f": 4450,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-60",
+        "k": "moto",
+        "s": "Scooter tipo adventure automática CVT · 169cc 4 tiempos · carburador · frenos de disco CBS delantero y trasero · llantas 110/80-14 y 130/70-13 · vel. máx. 105 km/h · tanque de 13 L · tablero digital y llave inteligente",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__supra-200-rojo.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos2__supra-200-blanco.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos2__supra-200-gris.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__supra-200-negro.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f6fd0",
+            "i": "f/fotos2__supra-200-azul.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-15",
+      "name": "Vitacci Z Max 200 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática · inyección electrónica (EFI) · frenos de disco delantero y trasero · llantas 130/60-13 · vel. máx. 95 km/h",
+      "cashPrice": 3800,
+      "financedPrice": 4000,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__zmax-200-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__zmax-200-azul.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos2__zmax-200-blanco.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__zmax-200-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Z Max",
+        "cc": 200,
+        "p": 3800,
+        "f": 4000,
+        "n": "",
+        "d": "",
+        "k": "moto",
+        "s": "Scooter automática · inyección electrónica (EFI) · frenos de disco delantero y trasero · llantas 130/60-13 · vel. máx. 95 km/h",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__zmax-200-rojo.jpg",
+            "bg": "#d9d8d7",
+            "cv": 1
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__zmax-200-azul.jpg",
+            "bg": "#d5d5d4",
+            "cv": 1
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos2__zmax-200-blanco.jpg",
+            "bg": "#d4d4d3",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__zmax-200-negro.jpg",
+            "bg": "#d5d4d4",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-16",
+      "name": "NMAX 200 cc",
+      "brand": "",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 3700,
+      "financedPrice": 3900,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#3f7fc4",
+          "image": "f/fotos2__nmax-200-azul.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__nmax-200-rojo.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__nmax-200-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "NMAX",
+        "cc": 200,
+        "p": 3700,
+        "f": 3900,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#3f7fc4",
+            "i": "f/fotos2__nmax-200-azul.jpg",
+            "bg": "#dcdce0",
+            "cv": 1
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__nmax-200-rojo.jpg",
+            "bg": "#d8d7db",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__nmax-200-negro.jpg",
+            "bg": "#dbdbde",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-17",
+      "name": "Xmox GN 200 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 3800,
+      "financedPrice": 4000,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__gn-200-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__gn-200-azul.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos__gn-200-gris.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__gn-200-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "GN",
+        "cc": 200,
+        "p": 3800,
+        "f": 4000,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__gn-200-rojo.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__gn-200-azul.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos__gn-200-gris.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__gn-200-negro.jpg",
+            "sc": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-18",
+      "name": "Vitacci Tank Pro 200 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática CVT · 168cc 4 tiempos · carburador · frenos de disco delantero y trasero · llantas 130/60-13 · vel. máx. 100 km/h · tanque de 5 L · baúl trasero, puerto USB y Bluetooth",
+      "cashPrice": 3600,
+      "financedPrice": 3800,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Vino",
+          "color": "#6b1320",
+          "image": "f/fotos2__tank-pro-200-vino.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__tank-pro-200-azul.jpg"
+        },
+        {
+          "name": "Amarillo",
+          "color": "#f2c200",
+          "image": "f/fotos2__tank-pro-200-amarillo.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#4b6043",
+          "image": "f/fotos2__tank-pro-200-verde.jpg"
+        },
+        {
+          "name": "Champán",
+          "color": "#b8a88a",
+          "image": "f/fotos2__tank-pro-200-champan.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos2__tank-pro-200-gris.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__tank-pro-200-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Tank Pro",
+        "cc": 200,
+        "p": 3600,
+        "f": 3800,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 168cc 4 tiempos · carburador · frenos de disco delantero y trasero · llantas 130/60-13 · vel. máx. 100 km/h · tanque de 5 L · baúl trasero, puerto USB y Bluetooth",
+        "c": [
+          {
+            "n": "Vino",
+            "h": "#6b1320",
+            "i": "f/fotos2__tank-pro-200-vino.jpg",
+            "bg": "#ededed",
+            "cv": 1
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__tank-pro-200-azul.jpg",
+            "bg": "#efeeee",
+            "cv": 1
+          },
+          {
+            "n": "Amarillo",
+            "h": "#f2c200",
+            "i": "f/fotos2__tank-pro-200-amarillo.jpg",
+            "bg": "#ededec",
+            "cv": 1
+          },
+          {
+            "n": "Verde",
+            "h": "#4b6043",
+            "i": "f/fotos2__tank-pro-200-verde.jpg",
+            "bg": "#edeceb",
+            "cv": 1
+          },
+          {
+            "n": "Champán",
+            "h": "#b8a88a",
+            "i": "f/fotos2__tank-pro-200-champan.jpg",
+            "bg": "#ebebea",
+            "cv": 1
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos2__tank-pro-200-gris.jpg",
+            "bg": "#e9e9e7",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__tank-pro-200-negro.jpg",
+            "bg": "#efeeef",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-19",
+      "name": "Tank Transpro 200 cc",
+      "brand": "",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 3500,
+      "financedPrice": 3700,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro y rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__tank-transpro-200-rojo.jpg"
+        },
+        {
+          "name": "Negro y verde neón",
+          "color": "#b6f000",
+          "image": "f/fotos2__tank-transpro-200-verde-neon.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Tank Transpro",
+        "cc": 200,
+        "p": 3500,
+        "f": 3700,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Negro y rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__tank-transpro-200-rojo.jpg",
+            "bg": "#c9c9cb"
+          },
+          {
+            "n": "Negro y verde neón",
+            "h": "#b6f000",
+            "i": "f/fotos2__tank-transpro-200-verde-neon.jpg",
+            "bg": "#d8d7d9",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-20",
+      "name": "Tank Elite 200 cc",
+      "brand": "",
+      "category": "motos",
+      "description": "Scooter automática CVT · 168.9cc 4 tiempos · carburador · frenos de disco delantero y trasero · llantas 130/70-13 · vel. máx. 95 km/h · tanque de 5.6 L · encendido sin llave, puerto USB, alarma y respaldo",
+      "cashPrice": 3700,
+      "financedPrice": 3900,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Gris",
+          "color": "#4a4f55",
+          "image": "f/fotos2__tank-elite-200-gris.jpg"
+        },
+        {
+          "name": "Camuflaje arena",
+          "color": "#b89b6a",
+          "image": "f/fotos2__tank-elite-200-camo-arena.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Tank Elite",
+        "cc": 200,
+        "p": 3700,
+        "f": 3900,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 168.9cc 4 tiempos · carburador · frenos de disco delantero y trasero · llantas 130/70-13 · vel. máx. 95 km/h · tanque de 5.6 L · encendido sin llave, puerto USB, alarma y respaldo",
+        "c": [
+          {
+            "n": "Gris",
+            "h": "#4a4f55",
+            "i": "f/fotos2__tank-elite-200-gris.jpg"
+          },
+          {
+            "n": "Camuflaje arena",
+            "h": "#b89b6a",
+            "i": "f/fotos2__tank-elite-200-camo-arena.jpg",
+            "bg": "#e9ebea",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-21",
+      "name": "Vitacci Marshall 200 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática CVT · 168cc 4 tiempos · carburador · freno de disco delantero y tambor trasero · llantas 130/60-13 · vel. máx. 100 km/h · tanque de 5 L · luces LED, tablero digital, baúl trasero, MP3, alarma y puerto USB",
+      "cashPrice": 3500,
+      "financedPrice": 3700,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__marshall-200-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__marshall-200-azul.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos2__marshall-200-blanco.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__marshall-200-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Marshall",
+        "cc": 200,
+        "p": 3500,
+        "f": 3700,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 168cc 4 tiempos · carburador · freno de disco delantero y tambor trasero · llantas 130/60-13 · vel. máx. 100 km/h · tanque de 5 L · luces LED, tablero digital, baúl trasero, MP3, alarma y puerto USB",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__marshall-200-rojo.jpg",
+            "bg": "#eeedec",
+            "cv": 1
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__marshall-200-azul.jpg",
+            "bg": "#e4e4e2",
+            "cv": 1
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos2__marshall-200-blanco.jpg",
+            "bg": "#e6e6e4",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__marshall-200-negro.jpg",
+            "bg": "#f2f2ef",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-22",
+      "name": "Vitacci Tank Sport 200 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Scooter automática CVT · 168cc 4 tiempos · carburador · frenos de disco delantero y trasero · llantas 130/60-13 · vel. máx. 100 km/h · tanque de 5 L · puerto USB y Bluetooth",
+      "cashPrice": 3700,
+      "financedPrice": 3900,
+      "notes": "No incluye arancel · envío a provincia",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__tank-sport-200-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__tank-sport-200-azul.jpg"
+        },
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos2__tank-sport-200-naranja.jpg"
+        },
+        {
+          "name": "Champán",
+          "color": "#b8a88a",
+          "image": "f/fotos2__tank-sport-200-champan.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos2__tank-sport-200-blanco.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos2__tank-sport-200-gris.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__tank-sport-200-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Tank Sport",
+        "cc": 200,
+        "p": 3700,
+        "f": 3900,
+        "n": "No incluye arancel · envío a provincia",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Scooter automática CVT · 168cc 4 tiempos · carburador · frenos de disco delantero y trasero · llantas 130/60-13 · vel. máx. 100 km/h · tanque de 5 L · puerto USB y Bluetooth",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__tank-sport-200-rojo.jpg",
+            "bg": "#e6e5e6",
+            "cv": 1
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__tank-sport-200-azul.jpg",
+            "bg": "#e8e7e7",
+            "cv": 1
+          },
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos2__tank-sport-200-naranja.jpg",
+            "bg": "#e4e4e4",
+            "cv": 1
+          },
+          {
+            "n": "Champán",
+            "h": "#b8a88a",
+            "i": "f/fotos2__tank-sport-200-champan.jpg",
+            "bg": "#e5e5e5",
+            "cv": 1
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos2__tank-sport-200-blanco.jpg",
+            "bg": "#e7e7e7",
+            "cv": 1
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos2__tank-sport-200-gris.jpg",
+            "bg": "#e8e7e7",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__tank-sport-200-negro.jpg",
+            "bg": "#e8e7e6",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-23",
+      "name": "Italica Supra 2026 Sport 200 cc",
+      "brand": "Italica",
+      "category": "motos",
+      "description": "Scooter tipo adventure automática CVT · 169cc 4 tiempos · frenos de disco CBS delantero y trasero · llantas 110/80-14 y 130/70-12 · horquilla invertida · tanque de 13 L · llave inteligente",
+      "cashPrice": 4450,
+      "financedPrice": 4650,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__supra-2026-200-rojo.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos2__supra-2026-200-blanco.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos2__supra-2026-200-gris.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__supra-2026-200-negro.jpg"
+        },
+        {
+          "name": "Celeste",
+          "color": "#2f9fe0",
+          "image": "f/fotos2__supra-2026-200-azul.jpg"
+        }
+      ],
+      "source": {
+        "b": "Italica",
+        "m": "Supra 2026 Sport",
+        "cc": 200,
+        "p": 4450,
+        "f": 4650,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "",
+        "k": "moto",
+        "s": "Scooter tipo adventure automática CVT · 169cc 4 tiempos · frenos de disco CBS delantero y trasero · llantas 110/80-14 y 130/70-12 · horquilla invertida · tanque de 13 L · llave inteligente",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__supra-2026-200-rojo.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos2__supra-2026-200-blanco.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos2__supra-2026-200-gris.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__supra-2026-200-negro.jpg"
+          },
+          {
+            "n": "Celeste",
+            "h": "#2f9fe0",
+            "i": "f/fotos2__supra-2026-200-azul.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-24",
+      "name": "Vitacci Matias 250 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Moto naked manual de 6 velocidades · 223cc enfriado por aceite · inyección electrónica (EFI) · llantas 110/70-17 y 140/70-17 · vel. máx. 110 km/h · tanque de 15 L · tablero digital, luces LED y puerto USB",
+      "cashPrice": 4600,
+      "financedPrice": 4800,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__matias-250-azul.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__matias-250-rojo.jpg"
+        },
+        {
+          "name": "Amarillo",
+          "color": "#f2c200",
+          "image": "f/fotos2__matias-250-amarillo.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3a9b35",
+          "image": "f/fotos2__matias-250-verde.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__matias-250-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Matias",
+        "cc": 250,
+        "p": 4600,
+        "f": 4800,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Moto naked manual de 6 velocidades · 223cc enfriado por aceite · inyección electrónica (EFI) · llantas 110/70-17 y 140/70-17 · vel. máx. 110 km/h · tanque de 15 L · tablero digital, luces LED y puerto USB",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__matias-250-azul.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__matias-250-rojo.jpg"
+          },
+          {
+            "n": "Amarillo",
+            "h": "#f2c200",
+            "i": "f/fotos2__matias-250-amarillo.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3a9b35",
+            "i": "f/fotos2__matias-250-verde.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__matias-250-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-25",
+      "name": "Vitacci Titan 250 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Moto deportiva manual de 6 velocidades · 250cc enfriado por aceite · inyección electrónica (EFI) · frenos de disco delantero y trasero · llantas 110/70-17 y 140/70-17 · vel. máx. 120 km/h",
+      "cashPrice": 4500,
+      "financedPrice": 4700,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__titan-250-azul.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__titan-250-rojo.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3a9b35",
+          "image": "f/fotos2__titan-250-verde.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__titan-250-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Titan",
+        "cc": 250,
+        "p": 4500,
+        "f": 4700,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Moto deportiva manual de 6 velocidades · 250cc enfriado por aceite · inyección electrónica (EFI) · frenos de disco delantero y trasero · llantas 110/70-17 y 140/70-17 · vel. máx. 120 km/h",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__titan-250-azul.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__titan-250-rojo.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3a9b35",
+            "i": "f/fotos2__titan-250-verde.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__titan-250-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-26",
+      "name": "Vitacci GTX 250 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Moto deportiva manual de 6 velocidades · 250cc enfriado por aceite · inyección electrónica (EFI) · frenos de disco delantero y trasero · llantas 110/70-17 y 140/70-17 · vel. máx. 120 km/h",
+      "cashPrice": 4500,
+      "financedPrice": 4700,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__gtx-250-rojo.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3a9b35",
+          "image": "f/fotos__gtx-250-verde.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__gtx-250-azul.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos__gtx-250-blanco.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__gtx-250-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "GTX",
+        "cc": 250,
+        "p": 4500,
+        "f": 4700,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Moto deportiva manual de 6 velocidades · 250cc enfriado por aceite · inyección electrónica (EFI) · frenos de disco delantero y trasero · llantas 110/70-17 y 140/70-17 · vel. máx. 120 km/h",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__gtx-250-rojo.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3a9b35",
+            "i": "f/fotos__gtx-250-verde.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__gtx-250-azul.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos__gtx-250-blanco.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__gtx-250-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-27",
+      "name": "Vitacci XMT 250 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Moto naked manual de 6 velocidades · 223cc enfriado por aceite · inyección electrónica (EFI) · llantas 110/70-17 y 140/70-17 · vel. máx. 110 km/h · tanque de 10 L · arranque eléctrico y tablero digital",
+      "cashPrice": 4400,
+      "financedPrice": 4600,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__xmt-250-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__xmt-250-azul.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos2__xmt-250-blanco.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__xmt-250-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "XMT",
+        "cc": 250,
+        "p": 4400,
+        "f": 4600,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Moto naked manual de 6 velocidades · 223cc enfriado por aceite · inyección electrónica (EFI) · llantas 110/70-17 y 140/70-17 · vel. máx. 110 km/h · tanque de 10 L · arranque eléctrico y tablero digital",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__xmt-250-rojo.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__xmt-250-azul.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos2__xmt-250-blanco.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__xmt-250-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-28",
+      "name": "Vitacci Raven 250 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Moto doble propósito (enduro) · 229cc 4 tiempos enfriado por aire · frenos de disco hidráulicos delantero y trasero · llantas 3.00-21 y 4.60-18 · vel. máx. 109 km/h · tanque de 14 L · arranque eléctrico y de patada",
+      "cashPrice": 3900,
+      "financedPrice": 4100,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__raven-250-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__raven-250-azul.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3a9b35",
+          "image": "f/fotos2__raven-250-verde.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos2__raven-250-gris.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Raven",
+        "cc": 250,
+        "p": 3900,
+        "f": 4100,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Moto doble propósito (enduro) · 229cc 4 tiempos enfriado por aire · frenos de disco hidráulicos delantero y trasero · llantas 3.00-21 y 4.60-18 · vel. máx. 109 km/h · tanque de 14 L · arranque eléctrico y de patada",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__raven-250-rojo.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__raven-250-azul.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3a9b35",
+            "i": "f/fotos2__raven-250-verde.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos2__raven-250-gris.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-29",
+      "name": "Vitacci Majestic 250 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Moto clásica estilo retro · 229cc 4 tiempos enfriado por aire · freno de disco delantero y tambor trasero · llantas 90/80-17 y 110/80-17 · vel. máx. 105 km/h · tanque de 12.8 L · arranque eléctrico y de patada",
+      "cashPrice": 3900,
+      "financedPrice": 4100,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__majestic-250-negro.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#a9b4b3",
+          "image": "f/fotos__majestic-250-gris.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__majestic-250-azul.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__majestic-250-rojo.jpg"
+        },
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos__majestic-250-naranja.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Majestic",
+        "cc": 250,
+        "p": 3900,
+        "f": 4100,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Moto clásica estilo retro · 229cc 4 tiempos enfriado por aire · freno de disco delantero y tambor trasero · llantas 90/80-17 y 110/80-17 · vel. máx. 105 km/h · tanque de 12.8 L · arranque eléctrico y de patada",
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__majestic-250-negro.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#a9b4b3",
+            "i": "f/fotos__majestic-250-gris.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__majestic-250-azul.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__majestic-250-rojo.jpg"
+          },
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos__majestic-250-naranja.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-30",
+      "name": "Italica Krypto 250 cc",
+      "brand": "Italica",
+      "category": "motos",
+      "description": "Moto deportiva manual de 6 velocidades · 249cc enfriado por aceite · inyección electrónica (EFI) · frenos de disco CBS delantero y trasero · llantas 110/70-17 y 140/70-17 · vel. máx. 127 km/h · tanque de 13 L · pantalla TFT con CarPlay",
+      "cashPrice": 4900,
+      "financedPrice": 5100,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-60",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__krypto-250-rojo.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f4f4f4",
+          "image": "f/fotos__krypto-250-blanco.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos__krypto-250-gris.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__krypto-250-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Italica",
+        "m": "Krypto",
+        "cc": 250,
+        "p": 4900,
+        "f": 5100,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-60",
+        "k": "moto",
+        "s": "Moto deportiva manual de 6 velocidades · 249cc enfriado por aceite · inyección electrónica (EFI) · frenos de disco CBS delantero y trasero · llantas 110/70-17 y 140/70-17 · vel. máx. 127 km/h · tanque de 13 L · pantalla TFT con CarPlay",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__krypto-250-rojo.jpg",
+            "bg": "#bebec0"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f4f4f4",
+            "i": "f/fotos__krypto-250-blanco.jpg",
+            "bg": "#b7b7b8"
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos__krypto-250-gris.jpg",
+            "bg": "#bfc0c2"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__krypto-250-negro.jpg",
+            "bg": "#c0c0c2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-31",
+      "name": "Xmox RR 250 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 4600,
+      "financedPrice": 4800,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro y naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos2__rr-250-naranja.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__rr-250-rojo.jpg"
+        },
+        {
+          "name": "Amarillo neón",
+          "color": "#d8f000",
+          "image": "f/fotos2__rr-250-amarillo.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "RR",
+        "cc": 250,
+        "p": 4600,
+        "f": 4800,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Negro y naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos2__rr-250-naranja.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__rr-250-rojo.jpg"
+          },
+          {
+            "n": "Amarillo neón",
+            "h": "#d8f000",
+            "i": "f/fotos2__rr-250-amarillo.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-32",
+      "name": "Xmox XMAX 250 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 4700,
+      "financedPrice": 4900,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#3b3f9e",
+          "image": "f/fotos2__xmax-250-azul.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#e4e2dc",
+          "image": "f/fotos2__xmax-250-blanco.jpg"
+        },
+        {
+          "name": "Gris oscuro",
+          "color": "#4a4a48",
+          "image": "f/fotos2__xmax-250-gris.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "XMAX",
+        "cc": 250,
+        "p": 4700,
+        "f": 4900,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#3b3f9e",
+            "i": "f/fotos2__xmax-250-azul.jpg",
+            "bg": "#eef0ef",
+            "cv": 1
+          },
+          {
+            "n": "Blanco",
+            "h": "#e4e2dc",
+            "i": "f/fotos2__xmax-250-blanco.jpg",
+            "bg": "#f4f6f5",
+            "cv": 1
+          },
+          {
+            "n": "Gris oscuro",
+            "h": "#4a4a48",
+            "i": "f/fotos2__xmax-250-gris.jpg",
+            "bg": "#eef0ef",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-33",
+      "name": "Xmox GP 250 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 4300,
+      "financedPrice": 4500,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__gp-250-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__gp-250-azul.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__gp-250-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "GP",
+        "cc": 250,
+        "p": 4300,
+        "f": 4500,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__gp-250-rojo.jpg",
+            "bg": "#efeeee",
+            "cv": 1
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__gp-250-azul.jpg",
+            "bg": "#f3f3f4",
+            "cv": 1
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__gp-250-negro.jpg",
+            "bg": "#e7e7e6",
+            "cv": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-34",
+      "name": "Xmox Carrera 250 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 4100,
+      "financedPrice": 4300,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__carrera-250-rojo.jpg"
+        },
+        {
+          "name": "Gris y verde",
+          "color": "#9ad22a",
+          "image": "f/fotos__carrera-250-verde.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "Carrera",
+        "cc": 250,
+        "p": 4100,
+        "f": 4300,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__carrera-250-rojo.jpg"
+          },
+          {
+            "n": "Gris y verde",
+            "h": "#9ad22a",
+            "i": "f/fotos__carrera-250-verde.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-35",
+      "name": "Xmox Battlo 4 250 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": null,
+      "financedPrice": 3900,
+      "notes": "No hay stock por el momento",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__battlo4-250-rojo.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__battlo4-250-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "Battlo 4",
+        "cc": 250,
+        "p": null,
+        "f": 3900,
+        "n": "No hay stock por el momento",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__battlo4-250-rojo.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__battlo4-250-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-36",
+      "name": "Xmox Battlo 5 250 cc",
+      "brand": "Xmox",
+      "category": "motos",
+      "description": "",
+      "cashPrice": 4300,
+      "financedPrice": 4500,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__battlo5-250-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f6fd0",
+          "image": "f/fotos__battlo5-250-azul.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__battlo5-250-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "Battlo 5",
+        "cc": 250,
+        "p": 4300,
+        "f": 4500,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__battlo5-250-rojo.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f6fd0",
+            "i": "f/fotos__battlo5-250-azul.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__battlo5-250-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-37",
+      "name": "Vitacci Ostin 250 cc",
+      "brand": "Vitacci",
+      "category": "motos",
+      "description": "Moto clásica de calle · 229cc 4 tiempos enfriado por aire · freno de disco delantero y tambor trasero · llantas 2.75-18 y 3.00-18 · vel. máx. 105 km/h · tanque de 10.2 L · arranque eléctrico y de patada",
+      "cashPrice": 3850,
+      "financedPrice": 4050,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__ostin-250-negro.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__ostin-250-rojo.jpg"
+        },
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos2__ostin-250-naranja.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__ostin-250-azul.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8fa6a8",
+          "image": "f/fotos2__ostin-250-gris.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "Ostin",
+        "cc": 250,
+        "p": 3850,
+        "f": 4050,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "moto",
+        "s": "Moto clásica de calle · 229cc 4 tiempos enfriado por aire · freno de disco delantero y tambor trasero · llantas 2.75-18 y 3.00-18 · vel. máx. 105 km/h · tanque de 10.2 L · arranque eléctrico y de patada",
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__ostin-250-negro.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__ostin-250-rojo.jpg"
+          },
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos2__ostin-250-naranja.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__ostin-250-azul.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#8fa6a8",
+            "i": "f/fotos2__ostin-250-gris.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-38",
+      "name": "Vitacci ATV Pentora Hunter 200 cc",
+      "brand": "Vitacci",
+      "category": "atv",
+      "description": "Cuatrimoto automática · 177cc 4 tiempos · enfriado por aceite y aire · inyección electrónica (EFI) · frenos hidráulicos delanteros y traseros · llantas 21x7-10 y 22x10-10 · vel. máx. 60 km/h · tanque de 9.7 L · arranque eléctrico · carga máx. 100 kg",
+      "cashPrice": 5200,
+      "financedPrice": 5400,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__pentora-hunter-200-negro.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos2__pentora-hunter-200-azul.jpg"
+        },
+        {
+          "name": "Gris",
+          "color": "#8a8f94",
+          "image": "f/fotos2__pentora-hunter-200-gris.jpg"
+        },
+        {
+          "name": "Azul marino",
+          "color": "#26324f",
+          "image": "f/fotos2__pentora-hunter-200-marino.jpg"
+        },
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos2__pentora-hunter-200-naranja.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos2__pentora-hunter-200-rojo.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "ATV Pentora Hunter",
+        "cc": 200,
+        "p": 5200,
+        "f": 5400,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "atv",
+        "s": "Cuatrimoto automática · 177cc 4 tiempos · enfriado por aceite y aire · inyección electrónica (EFI) · frenos hidráulicos delanteros y traseros · llantas 21x7-10 y 22x10-10 · vel. máx. 60 km/h · tanque de 9.7 L · arranque eléctrico · carga máx. 100 kg",
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__pentora-hunter-200-negro.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos2__pentora-hunter-200-azul.jpg"
+          },
+          {
+            "n": "Gris",
+            "h": "#8a8f94",
+            "i": "f/fotos2__pentora-hunter-200-gris.jpg"
+          },
+          {
+            "n": "Azul marino",
+            "h": "#26324f",
+            "i": "f/fotos2__pentora-hunter-200-marino.jpg"
+          },
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos2__pentora-hunter-200-naranja.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos2__pentora-hunter-200-rojo.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-39",
+      "name": "Vitacci ATV Pentora 250 cc",
+      "brand": "Vitacci",
+      "category": "atv",
+      "description": "Cuatrimoto deportiva con embrague manual · 223cc 4 tiempos enfriado por aire · carburador · frenos de disco hidráulicos delanteros y traseros · llantas 20x7-10 y 19x10-9 · vel. máx. 70 km/h · tanque de 9 L · arranque eléctrico · carga máx. 100 kg",
+      "cashPrice": 5000,
+      "financedPrice": 5200,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos__atv-pentora-250-naranja.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__atv-pentora-250-rojo.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f3fbf",
+          "image": "f/fotos__atv-pentora-250-azul.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3fbf2a",
+          "image": "f/fotos__atv-pentora-250-verde.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "ATV Pentora",
+        "cc": 250,
+        "p": 5000,
+        "f": 5200,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "atv",
+        "s": "Cuatrimoto deportiva con embrague manual · 223cc 4 tiempos enfriado por aire · carburador · frenos de disco hidráulicos delanteros y traseros · llantas 20x7-10 y 19x10-9 · vel. máx. 70 km/h · tanque de 9 L · arranque eléctrico · carga máx. 100 kg",
+        "c": [
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos__atv-pentora-250-naranja.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__atv-pentora-250-rojo.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f3fbf",
+            "i": "f/fotos__atv-pentora-250-azul.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3fbf2a",
+            "i": "f/fotos__atv-pentora-250-verde.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-40",
+      "name": "Vitacci ATV Cyber 250 cc",
+      "brand": "Vitacci",
+      "category": "atv",
+      "description": "Cuatrimoto automática CVT con reversa · 224cc 4 tiempos enfriado por aceite · frenos de disco hidráulicos delanteros y traseros · llantas 23x7-10 y 22x10-10 con rines de aluminio · vel. máx. 70 km/h · tanque de 14 L · luces LED, tablero LCD, puertos USB, parrillas y respaldo · para 2 personas, carga máx. 150 kg",
+      "cashPrice": 5800,
+      "financedPrice": 6000,
+      "notes": "Arancel incluido · entrega en casa",
+      "deliveryDays": "45-65",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__atv-cyber-250-negro.jpg"
+        },
+        {
+          "name": "Verde militar",
+          "color": "#5b6b47",
+          "image": "f/fotos__atv-cyber-250-verde.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#e0251b",
+          "image": "f/fotos__atv-cyber-250-rojo.jpg"
+        },
+        {
+          "name": "Gris plata",
+          "color": "#b9bcc0",
+          "image": "f/fotos__atv-cyber-250-gris.jpg"
+        }
+      ],
+      "source": {
+        "b": "Vitacci",
+        "m": "ATV Cyber",
+        "cc": 250,
+        "p": 5800,
+        "f": 6000,
+        "n": "Arancel incluido · entrega en casa",
+        "d": "45-65",
+        "k": "atv",
+        "s": "Cuatrimoto automática CVT con reversa · 224cc 4 tiempos enfriado por aceite · frenos de disco hidráulicos delanteros y traseros · llantas 23x7-10 y 22x10-10 con rines de aluminio · vel. máx. 70 km/h · tanque de 14 L · luces LED, tablero LCD, puertos USB, parrillas y respaldo · para 2 personas, carga máx. 150 kg",
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__atv-cyber-250-negro.jpg"
+          },
+          {
+            "n": "Verde militar",
+            "h": "#5b6b47",
+            "i": "f/fotos__atv-cyber-250-verde.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#e0251b",
+            "i": "f/fotos__atv-cyber-250-rojo.jpg"
+          },
+          {
+            "n": "Gris plata",
+            "h": "#b9bcc0",
+            "i": "f/fotos__atv-cyber-250-gris.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-41",
+      "name": "Triciclo Tiger Híbrido",
+      "brand": "",
+      "category": "triciclos",
+      "description": "",
+      "cashPrice": 5300,
+      "financedPrice": 5500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 90 a 120 días",
+        "Entrega en cabecera de provincia",
+        "No incluye aranceles",
+        "Híbrido",
+        "Batería de litio"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__tiger-hibrido-lateral.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Triciclo Tiger Híbrido",
+        "cc": 0,
+        "p": 5300,
+        "f": 5500,
+        "n": "",
+        "d": "",
+        "k": "tri",
+        "t": [
+          "d90",
+          "cab",
+          "noaran",
+          "hib",
+          "litio"
+        ],
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__tiger-hibrido-lateral.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-42",
+      "name": "Triciclo Tiger Híbrido con panel",
+      "brand": "",
+      "category": "triciclos",
+      "description": "Triciclo eléctrico solar · panel solar integrado en el techo · batería de litio LiFePO4 72 V 65 Ah · motor de 1800 W · autonomía de hasta 130 km con extensor de rango · recarga en 6 a 8 horas · carga máx. 1 tonelada · hasta 9 pasajeros · cajón de 1.6 × 1.1 m · cabina cerrada · frenos de tambor delantero y trasero",
+      "cashPrice": 5500,
+      "financedPrice": 5700,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 90 a 120 días",
+        "Entrega en cabecera de provincia",
+        "No incluye aranceles",
+        "Híbrido con panel",
+        "Batería de litio"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__tiger-panel-principal.jpg"
+        },
+        {
+          "name": "Lateral",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__tiger-panel-lateral.jpg"
+        },
+        {
+          "name": "Frente",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__tiger-panel-frente.jpg"
+        },
+        {
+          "name": "Trasera",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__tiger-panel-trasera.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Triciclo Tiger Híbrido con panel",
+        "cc": 0,
+        "p": 5500,
+        "f": 5700,
+        "n": "",
+        "d": "",
+        "k": "tri",
+        "s": "Triciclo eléctrico solar · panel solar integrado en el techo · batería de litio LiFePO4 72 V 65 Ah · motor de 1800 W · autonomía de hasta 130 km con extensor de rango · recarga en 6 a 8 horas · carga máx. 1 tonelada · hasta 9 pasajeros · cajón de 1.6 × 1.1 m · cabina cerrada · frenos de tambor delantero y trasero",
+        "t": [
+          "d90",
+          "cab",
+          "noaran",
+          "panel",
+          "litio"
+        ],
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__tiger-panel-principal.jpg",
+            "bg": "#ffffff"
+          },
+          {
+            "n": "Lateral",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__tiger-panel-lateral.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Frente",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__tiger-panel-frente.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Trasera",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__tiger-panel-trasera.jpg",
+            "sc": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-43",
+      "name": "Triciclo JMD Híbrido",
+      "brand": "",
+      "category": "triciclos",
+      "description": "",
+      "cashPrice": 5400,
+      "financedPrice": 5600,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 90 a 120 días",
+        "Entrega en cabecera de provincia",
+        "Aranceles pagos",
+        "Híbrido",
+        "Batería de litio"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1e8fd6",
+          "image": "f/fotos__jmd-hibrido-azul.jpg"
+        },
+        {
+          "name": "Lateral",
+          "color": "#1e8fd6",
+          "image": "f/fotos__jmd-hibrido-lateral.jpg"
+        },
+        {
+          "name": "Sin lona",
+          "color": "#1e8fd6",
+          "image": "f/fotos__jmd-hibrido-sin-lona.jpg"
+        },
+        {
+          "name": "Frente",
+          "color": "#1e8fd6",
+          "image": "f/fotos__jmd-hibrido-frente.jpg"
+        },
+        {
+          "name": "Trasera",
+          "color": "#1e8fd6",
+          "image": "f/fotos__jmd-hibrido-trasera.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Triciclo JMD Híbrido",
+        "cc": 0,
+        "p": 5400,
+        "f": 5600,
+        "n": "",
+        "d": "",
+        "k": "tri",
+        "t": [
+          "d90",
+          "cab",
+          "aran",
+          "hib",
+          "litio"
+        ],
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1e8fd6",
+            "i": "f/fotos__jmd-hibrido-azul.jpg"
+          },
+          {
+            "n": "Lateral",
+            "h": "#1e8fd6",
+            "i": "f/fotos__jmd-hibrido-lateral.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Sin lona",
+            "h": "#1e8fd6",
+            "i": "f/fotos__jmd-hibrido-sin-lona.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Frente",
+            "h": "#1e8fd6",
+            "i": "f/fotos__jmd-hibrido-frente.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Trasera",
+            "h": "#1e8fd6",
+            "i": "f/fotos__jmd-hibrido-trasera.jpg",
+            "sc": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-44",
+      "name": "Triciclo JMD Híbrido con panel",
+      "brand": "",
+      "category": "triciclos",
+      "description": "",
+      "cashPrice": 5600,
+      "financedPrice": 5800,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 90 a 120 días",
+        "Entrega en cabecera de provincia",
+        "Aranceles pagos",
+        "Híbrido con panel",
+        "Batería de litio"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1e8fd6",
+          "image": "f/fotos__jmd-panel-azul.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Triciclo JMD Híbrido con panel",
+        "cc": 0,
+        "p": 5600,
+        "f": 5800,
+        "n": "",
+        "d": "",
+        "k": "tri",
+        "t": [
+          "d90",
+          "cab",
+          "aran",
+          "panel",
+          "litio"
+        ],
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1e8fd6",
+            "i": "f/fotos__jmd-panel-azul.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-45",
+      "name": "Triciclo Topmaq Eléctrico",
+      "brand": "",
+      "category": "triciclos",
+      "description": "Triciclo eléctrico de carga 2026 · disponible en negro, rojo y azul · motor de 2000 W · batería 72 V 58 Ah · controlador Votol EM-100 · carga máx. 1000 kg · vel. máx. 50 km/h · sube pendientes de hasta 20° · caja de acero de 1600 × 1100 × 420 mm · medidas 3050 × 1100 × 1200 mm · peso 220 kg sin batería · llantas 4.00-12 y 145/70-12 · frenos de tambor delantero y trasero",
+      "cashPrice": null,
+      "financedPrice": 5300,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Retiro inmediato en La Habana",
+        "Envío a provincias en 20 días",
+        "No se envía a Santiago de Cuba ni Guantánamo",
+        "Batería de gel"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__topmaq-electrico-negro.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Triciclo Topmaq Eléctrico",
+        "cc": 0,
+        "p": null,
+        "f": 5300,
+        "n": "",
+        "d": "",
+        "k": "tri",
+        "s": "Triciclo eléctrico de carga 2026 · disponible en negro, rojo y azul · motor de 2000 W · batería 72 V 58 Ah · controlador Votol EM-100 · carga máx. 1000 kg · vel. máx. 50 km/h · sube pendientes de hasta 20° · caja de acero de 1600 × 1100 × 420 mm · medidas 3050 × 1100 × 1200 mm · peso 220 kg sin batería · llantas 4.00-12 y 145/70-12 · frenos de tambor delantero y trasero",
+        "t": [
+          "habana",
+          "prov20",
+          "nosgo",
+          "gel"
+        ],
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__topmaq-electrico-negro.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-46",
+      "name": "Triciclo Topmaq Híbrido con panel",
+      "brand": "",
+      "category": "triciclos",
+      "description": "Triciclo de carga con techo de 2 paneles solares (610 W en total, 110 V) · motor de 2000 W · batería de plomo-ácido 72 V 58 Ah · controlador Votol EM-100 · autonomía de hasta 120 km · carga máx. 1000 kg · vel. máx. 50 km/h · reversa (hasta 12 km/h) · sube pendientes de hasta 20° · caja de acero de 1600 × 1100 × 420 mm con 3 puertas que abren · medidas 3050 × 1100 × 1200 mm · peso 220 kg sin batería · llantas 4.00-12 y 145/70-12 · frenos de tambor delantero y trasero",
+      "cashPrice": 5500,
+      "financedPrice": 5700,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 90 a 120 días",
+        "Envío a la casa",
+        "Aranceles pagos",
+        "Híbrido con panel",
+        "Batería de gel"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Negro · lateral",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__topmaq-panel-lateral.jpg"
+        },
+        {
+          "name": "Paneles solares",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__topmaq-panel-paneles.jpg"
+        },
+        {
+          "name": "Frente",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__topmaq-panel-frente.jpg"
+        },
+        {
+          "name": "Caja de carga",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__topmaq-panel-caja.jpg"
+        },
+        {
+          "name": "Motor",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__topmaq-panel-motor.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Triciclo Topmaq Híbrido con panel",
+        "cc": 0,
+        "p": 5500,
+        "f": 5700,
+        "n": "",
+        "d": "",
+        "k": "tri",
+        "s": "Triciclo de carga con techo de 2 paneles solares (610 W en total, 110 V) · motor de 2000 W · batería de plomo-ácido 72 V 58 Ah · controlador Votol EM-100 · autonomía de hasta 120 km · carga máx. 1000 kg · vel. máx. 50 km/h · reversa (hasta 12 km/h) · sube pendientes de hasta 20° · caja de acero de 1600 × 1100 × 420 mm con 3 puertas que abren · medidas 3050 × 1100 × 1200 mm · peso 220 kg sin batería · llantas 4.00-12 y 145/70-12 · frenos de tambor delantero y trasero",
+        "t": [
+          "d90",
+          "casa",
+          "aran",
+          "panel",
+          "gel"
+        ],
+        "c": [
+          {
+            "n": "Negro · lateral",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__topmaq-panel-lateral.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Paneles solares",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__topmaq-panel-paneles.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Frente",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__topmaq-panel-frente.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Caja de carga",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__topmaq-panel-caja.jpg",
+            "sc": 1
+          },
+          {
+            "n": "Motor",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__topmaq-panel-motor.jpg",
+            "sc": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-47",
+      "name": "Triciclo Híbrido con cabina",
+      "brand": "",
+      "category": "triciclos",
+      "description": "Triciclo híbrido de carga con cabina · motor de 1500 W · batería de litio 72 V 50 Ah con cargador de 72 V · autonomía de 95 a 105 km (menos con carga pesada) · carga máx. 1500 kg · vel. máx. 30 a 60 km/h con 3 niveles de velocidad · caja de 1500 × 1000 × 1000 mm · medidas 2850 × 1020 × 1300 mm · distancia entre ejes 1600 mm · llantas 4.00-12 y 3.75-12 · freno delantero de disco y frenos de tambor · amortiguadores: 2 delanteros y 4 traseros · cabina con dos puertas y parabrisas · asiento trasero doble con respaldo plegable · pantalla digital grande, luces direccionales delanteras y traseras",
+      "cashPrice": 5100,
+      "financedPrice": 5300,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 90 a 120 días",
+        "Entrega en cabecera de provincia",
+        "No incluye aranceles",
+        "Híbrido",
+        "Batería de litio"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Frente",
+          "color": "#1e8fd6",
+          "image": "f/fotos2__tri-cabina-frente.jpg"
+        },
+        {
+          "name": "Lateral",
+          "color": "#1e8fd6",
+          "image": "f/fotos2__tri-cabina-lateral.jpg"
+        },
+        {
+          "name": "Trasera",
+          "color": "#1e8fd6",
+          "image": "f/fotos2__tri-cabina-trasera.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Triciclo Híbrido con cabina",
+        "cc": 0,
+        "p": 5100,
+        "f": 5300,
+        "n": "",
+        "d": "",
+        "k": "tri",
+        "s": "Triciclo híbrido de carga con cabina · motor de 1500 W · batería de litio 72 V 50 Ah con cargador de 72 V · autonomía de 95 a 105 km (menos con carga pesada) · carga máx. 1500 kg · vel. máx. 30 a 60 km/h con 3 niveles de velocidad · caja de 1500 × 1000 × 1000 mm · medidas 2850 × 1020 × 1300 mm · distancia entre ejes 1600 mm · llantas 4.00-12 y 3.75-12 · freno delantero de disco y frenos de tambor · amortiguadores: 2 delanteros y 4 traseros · cabina con dos puertas y parabrisas · asiento trasero doble con respaldo plegable · pantalla digital grande, luces direccionales delanteras y traseras",
+        "t": [
+          "d90",
+          "cab",
+          "noaran",
+          "hib",
+          "litio"
+        ],
+        "c": [
+          {
+            "n": "Frente",
+            "h": "#1e8fd6",
+            "i": "f/fotos2__tri-cabina-frente.jpg"
+          },
+          {
+            "n": "Lateral",
+            "h": "#1e8fd6",
+            "i": "f/fotos2__tri-cabina-lateral.jpg"
+          },
+          {
+            "n": "Trasera",
+            "h": "#1e8fd6",
+            "i": "f/fotos2__tri-cabina-trasera.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-48",
+      "name": "EcoWorthy Batería 5.12 kWh",
+      "brand": "EcoWorthy",
+      "category": "equipos",
+      "description": "Batería de litio EcoWorthy de 5.12 kWh · se vende por separado",
+      "cashPrice": 2400,
+      "financedPrice": 2500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío express · 30 a 45 días",
+        "Envío a la casa"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Foto de referencia",
+          "color": "#1a1a1a",
+          "image": "f/fotos__eco-bat-5.jpg"
+        }
+      ],
+      "source": {
+        "b": "EcoWorthy",
+        "m": "Batería 5.12 kWh",
+        "cc": 0,
+        "p": 2400,
+        "f": 2500,
+        "n": "",
+        "d": "",
+        "k": "solarb",
+        "s": "Batería de litio EcoWorthy de 5.12 kWh · se vende por separado",
+        "t": [
+          "exp3045",
+          "casa"
+        ],
+        "c": [
+          {
+            "n": "Foto de referencia",
+            "h": "#1a1a1a",
+            "i": "f/fotos__eco-bat-5.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-49",
+      "name": "EcoWorthy Batería 10 kWh",
+      "brand": "EcoWorthy",
+      "category": "equipos",
+      "description": "Batería de litio EcoWorthy de 10 kWh · se vende por separado",
+      "cashPrice": 3600,
+      "financedPrice": 3700,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío express · 30 a 45 días",
+        "Envío a la casa"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Foto de referencia",
+          "color": "#1a1a1a",
+          "image": "f/fotos__eco-bat-10.jpg"
+        }
+      ],
+      "source": {
+        "b": "EcoWorthy",
+        "m": "Batería 10 kWh",
+        "cc": 0,
+        "p": 3600,
+        "f": 3700,
+        "n": "",
+        "d": "",
+        "k": "solarb",
+        "s": "Batería de litio EcoWorthy de 10 kWh · se vende por separado",
+        "t": [
+          "exp3045",
+          "casa"
+        ],
+        "c": [
+          {
+            "n": "Foto de referencia",
+            "h": "#1a1a1a",
+            "i": "f/fotos__eco-bat-10.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-50",
+      "name": "EcoWorthy Batería 16 kWh",
+      "brand": "EcoWorthy",
+      "category": "equipos",
+      "description": "Batería de litio EcoWorthy de 16 kWh · se vende por separado",
+      "cashPrice": 4300,
+      "financedPrice": 4400,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío express · 30 a 45 días",
+        "Envío a la casa"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Foto de referencia",
+          "color": "#1a1a1a",
+          "image": "f/fotos__eco-bat-16.jpg"
+        }
+      ],
+      "source": {
+        "b": "EcoWorthy",
+        "m": "Batería 16 kWh",
+        "cc": 0,
+        "p": 4300,
+        "f": 4400,
+        "n": "",
+        "d": "",
+        "k": "solarb",
+        "s": "Batería de litio EcoWorthy de 16 kWh · se vende por separado",
+        "t": [
+          "exp3045",
+          "casa"
+        ],
+        "c": [
+          {
+            "n": "Foto de referencia",
+            "h": "#1a1a1a",
+            "i": "f/fotos__eco-bat-16.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-51",
+      "name": "EcoWorthy Inversor 3.5 kW",
+      "brand": "EcoWorthy",
+      "category": "equipos",
+      "description": "Inversor solar EcoWorthy de 3.5 kW · se vende por separado",
+      "cashPrice": 1650,
+      "financedPrice": 1750,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío express · 30 a 45 días",
+        "Envío a la casa"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Foto de referencia",
+          "color": "#1a1a1a",
+          "image": "f/fotos__eco-inv-35.jpg"
+        }
+      ],
+      "source": {
+        "b": "EcoWorthy",
+        "m": "Inversor 3.5 kW",
+        "cc": 0,
+        "p": 1650,
+        "f": 1750,
+        "n": "",
+        "d": "",
+        "k": "solari",
+        "s": "Inversor solar EcoWorthy de 3.5 kW · se vende por separado",
+        "t": [
+          "exp3045",
+          "casa"
+        ],
+        "c": [
+          {
+            "n": "Foto de referencia",
+            "h": "#1a1a1a",
+            "i": "f/fotos__eco-inv-35.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-52",
+      "name": "EcoWorthy Inversor 5 kW",
+      "brand": "EcoWorthy",
+      "category": "equipos",
+      "description": "Inversor solar EcoWorthy de 5 kW · se vende por separado",
+      "cashPrice": 2200,
+      "financedPrice": 2300,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío express · 30 a 45 días",
+        "Envío a la casa"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Foto de referencia",
+          "color": "#1a1a1a",
+          "image": "f/fotos__eco-inv-5.jpg"
+        }
+      ],
+      "source": {
+        "b": "EcoWorthy",
+        "m": "Inversor 5 kW",
+        "cc": 0,
+        "p": 2200,
+        "f": 2300,
+        "n": "",
+        "d": "",
+        "k": "solari",
+        "s": "Inversor solar EcoWorthy de 5 kW · se vende por separado",
+        "t": [
+          "exp3045",
+          "casa"
+        ],
+        "c": [
+          {
+            "n": "Foto de referencia",
+            "h": "#1a1a1a",
+            "i": "f/fotos__eco-inv-5.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-53",
+      "name": "EcoWorthy Inversor 6 kW",
+      "brand": "EcoWorthy",
+      "category": "equipos",
+      "description": "Inversor solar EcoWorthy de 6 kW · se vende por separado",
+      "cashPrice": 2400,
+      "financedPrice": 2500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío express · 30 a 45 días",
+        "Envío a la casa"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Foto de referencia",
+          "color": "#1a1a1a",
+          "image": "f/fotos__eco-inv-6.jpg"
+        }
+      ],
+      "source": {
+        "b": "EcoWorthy",
+        "m": "Inversor 6 kW",
+        "cc": 0,
+        "p": 2400,
+        "f": 2500,
+        "n": "",
+        "d": "",
+        "k": "solari",
+        "s": "Inversor solar EcoWorthy de 6 kW · se vende por separado",
+        "t": [
+          "exp3045",
+          "casa"
+        ],
+        "c": [
+          {
+            "n": "Foto de referencia",
+            "h": "#1a1a1a",
+            "i": "f/fotos__eco-inv-6.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-54",
+      "name": "EcoWorthy Inversor 10 kW",
+      "brand": "EcoWorthy",
+      "category": "equipos",
+      "description": "Inversor solar EcoWorthy de 10 kW · se vende por separado",
+      "cashPrice": 3200,
+      "financedPrice": 3300,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío express · 30 a 45 días",
+        "Envío a la casa"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Foto de referencia",
+          "color": "#1a1a1a",
+          "image": "f/fotos__eco-inv-10.jpg"
+        }
+      ],
+      "source": {
+        "b": "EcoWorthy",
+        "m": "Inversor 10 kW",
+        "cc": 0,
+        "p": 3200,
+        "f": 3300,
+        "n": "",
+        "d": "",
+        "k": "solari",
+        "s": "Inversor solar EcoWorthy de 10 kW · se vende por separado",
+        "t": [
+          "exp3045",
+          "casa"
+        ],
+        "c": [
+          {
+            "n": "Foto de referencia",
+            "h": "#1a1a1a",
+            "i": "f/fotos__eco-inv-10.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-55",
+      "name": "Infini Solar Kit 3 kW + 5.12 kWh + 4 paneles",
+      "brand": "Infini Solar",
+      "category": "kits",
+      "description": "Kit de energía solar económico · inversor de 3 kW · batería de 5.12 kWh · 4 paneles solares",
+      "cashPrice": 4500,
+      "financedPrice": 4700,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 60 a 90 días",
+        "Retiro en cabecera de provincia"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Kit",
+          "color": "#3a4049",
+          "image": "f/fotos__infini-f1.jpg"
+        }
+      ],
+      "source": {
+        "b": "Infini Solar",
+        "m": "Kit 3 kW + 5.12 kWh + 4 paneles",
+        "cc": 0,
+        "p": 4500,
+        "f": 4700,
+        "n": "",
+        "d": "",
+        "k": "solar2",
+        "s": "Kit de energía solar económico · inversor de 3 kW · batería de 5.12 kWh · 4 paneles solares",
+        "t": [
+          "d6090",
+          "retcab"
+        ],
+        "c": [
+          {
+            "n": "Kit",
+            "h": "#3a4049",
+            "i": "f/fotos__infini-f1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-56",
+      "name": "Infini Solar Kit 3 kW + 10.24 kWh + 4 paneles",
+      "brand": "Infini Solar",
+      "category": "kits",
+      "description": "Kit de energía solar económico · inversor de 3 kW · batería de 10.24 kWh · 4 paneles solares",
+      "cashPrice": 5300,
+      "financedPrice": 5500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 60 a 90 días",
+        "Retiro en cabecera de provincia"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Kit",
+          "color": "#3a4049",
+          "image": "f/fotos__infini-f2.jpg"
+        }
+      ],
+      "source": {
+        "b": "Infini Solar",
+        "m": "Kit 3 kW + 10.24 kWh + 4 paneles",
+        "cc": 0,
+        "p": 5300,
+        "f": 5500,
+        "n": "",
+        "d": "",
+        "k": "solar2",
+        "s": "Kit de energía solar económico · inversor de 3 kW · batería de 10.24 kWh · 4 paneles solares",
+        "t": [
+          "d6090",
+          "retcab"
+        ],
+        "c": [
+          {
+            "n": "Kit",
+            "h": "#3a4049",
+            "i": "f/fotos__infini-f2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-57",
+      "name": "Infini Solar Kit 6 kW + 10.24 kWh + 6 paneles",
+      "brand": "Infini Solar",
+      "category": "kits",
+      "description": "Kit de energía solar económico · inversor de 6 kW · batería de 10.24 kWh · 6 paneles solares",
+      "cashPrice": 5500,
+      "financedPrice": 5700,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 60 a 90 días",
+        "Retiro en cabecera de provincia"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Kit",
+          "color": "#3a4049",
+          "image": "f/fotos__infini-f3.jpg"
+        }
+      ],
+      "source": {
+        "b": "Infini Solar",
+        "m": "Kit 6 kW + 10.24 kWh + 6 paneles",
+        "cc": 0,
+        "p": 5500,
+        "f": 5700,
+        "n": "",
+        "d": "",
+        "k": "solar2",
+        "s": "Kit de energía solar económico · inversor de 6 kW · batería de 10.24 kWh · 6 paneles solares",
+        "t": [
+          "d6090",
+          "retcab"
+        ],
+        "c": [
+          {
+            "n": "Kit",
+            "h": "#3a4049",
+            "i": "f/fotos__infini-f3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-58",
+      "name": "Infini Solar Kit 6 kW + 15.38 kWh + 6 paneles",
+      "brand": "Infini Solar",
+      "category": "kits",
+      "description": "Kit de energía solar económico · inversor de 6 kW · batería de 15.38 kWh · 6 paneles solares",
+      "cashPrice": 6000,
+      "financedPrice": 6200,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 60 a 90 días",
+        "Retiro en cabecera de provincia"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Kit",
+          "color": "#3a4049",
+          "image": "f/fotos__infini-f4.jpg"
+        }
+      ],
+      "source": {
+        "b": "Infini Solar",
+        "m": "Kit 6 kW + 15.38 kWh + 6 paneles",
+        "cc": 0,
+        "p": 6000,
+        "f": 6200,
+        "n": "",
+        "d": "",
+        "k": "solar2",
+        "s": "Kit de energía solar económico · inversor de 6 kW · batería de 15.38 kWh · 6 paneles solares",
+        "t": [
+          "d6090",
+          "retcab"
+        ],
+        "c": [
+          {
+            "n": "Kit",
+            "h": "#3a4049",
+            "i": "f/fotos__infini-f4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-59",
+      "name": "Infini Solar Kit 12 kW + 16 kWh + 10 paneles",
+      "brand": "Infini Solar",
+      "category": "kits",
+      "description": "Kit de energía solar económico · inversor de 12 kW · batería de 16 kWh · 10 paneles solares",
+      "cashPrice": 7200,
+      "financedPrice": 7400,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 60 a 90 días",
+        "Retiro en cabecera de provincia"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Kit",
+          "color": "#3a4049",
+          "image": "f/fotos__infini-f5.jpg"
+        }
+      ],
+      "source": {
+        "b": "Infini Solar",
+        "m": "Kit 12 kW + 16 kWh + 10 paneles",
+        "cc": 0,
+        "p": 7200,
+        "f": 7400,
+        "n": "",
+        "d": "",
+        "k": "solar2",
+        "s": "Kit de energía solar económico · inversor de 12 kW · batería de 16 kWh · 10 paneles solares",
+        "t": [
+          "d6090",
+          "retcab"
+        ],
+        "c": [
+          {
+            "n": "Kit",
+            "h": "#3a4049",
+            "i": "f/fotos__infini-f5.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-60",
+      "name": "Infini Solar Kit 12 kW + 20 kWh + 12 paneles",
+      "brand": "Infini Solar",
+      "category": "kits",
+      "description": "Kit de energía solar económico · inversor de 12 kW · batería de 20 kWh · 12 paneles solares",
+      "cashPrice": 8300,
+      "financedPrice": 8500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 60 a 90 días",
+        "Retiro en cabecera de provincia"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Kit",
+          "color": "#3a4049",
+          "image": "f/fotos__infini-f6.jpg"
+        }
+      ],
+      "source": {
+        "b": "Infini Solar",
+        "m": "Kit 12 kW + 20 kWh + 12 paneles",
+        "cc": 0,
+        "p": 8300,
+        "f": 8500,
+        "n": "",
+        "d": "",
+        "k": "solar2",
+        "s": "Kit de energía solar económico · inversor de 12 kW · batería de 20 kWh · 12 paneles solares",
+        "t": [
+          "d6090",
+          "retcab"
+        ],
+        "c": [
+          {
+            "n": "Kit",
+            "h": "#3a4049",
+            "i": "f/fotos__infini-f6.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-61",
+      "name": "HappyRun G300 Pro 6500W",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Dirt bike eléctrica · 72 V · motor de 3000 W (6500 W pico) · 120 Nm de torque · vel. máx. 80 km/h",
+      "cashPrice": 2800,
+      "financedPrice": 3000,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f6fd0",
+          "image": "f/fotos__hr-h0.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h1.jpg"
+        },
+        {
+          "name": "Camuflaje",
+          "color": "#7a7650",
+          "image": "f/fotos__hr-h2.jpg"
+        },
+        {
+          "name": "Naranja",
+          "color": "#f26a1b",
+          "image": "f/fotos__hr-h3.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "G300 Pro 6500W",
+        "cc": 0,
+        "p": 2800,
+        "f": 3000,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Dirt bike eléctrica · 72 V · motor de 3000 W (6500 W pico) · 120 Nm de torque · vel. máx. 80 km/h",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f6fd0",
+            "i": "f/fotos__hr-h0.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h1.jpg"
+          },
+          {
+            "n": "Camuflaje",
+            "h": "#7a7650",
+            "i": "f/fotos__hr-h2.jpg"
+          },
+          {
+            "n": "Naranja",
+            "h": "#f26a1b",
+            "i": "f/fotos__hr-h3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-62",
+      "name": "HappyRun F18 2.0",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Dirt bike eléctrica de 60 V · marcha atrás · desbloqueo NFC · interruptor magnético de seguridad",
+      "cashPrice": 2200,
+      "financedPrice": 2400,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Rojo",
+          "color": "#c1121f",
+          "image": "f/fotos__hr-h4.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h5.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "F18 2.0",
+        "cc": 0,
+        "p": 2200,
+        "f": 2400,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Dirt bike eléctrica de 60 V · marcha atrás · desbloqueo NFC · interruptor magnético de seguridad",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Rojo",
+            "h": "#c1121f",
+            "i": "f/fotos__hr-h4.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h5.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-63",
+      "name": "HappyRun G70 Pro",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Bicicleta eléctrica de carga · doble motor (5000 W pico combinados) · doble batería · dos asientos · carga máx. 150 kg",
+      "cashPrice": 2450,
+      "financedPrice": 2650,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h6.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "G70 Pro",
+        "cc": 0,
+        "p": 2450,
+        "f": 2650,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Bicicleta eléctrica de carga · doble motor (5000 W pico combinados) · doble batería · dos asientos · carga máx. 150 kg",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h6.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-64",
+      "name": "HappyRun G18 Pro 4500W",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Dirt bike eléctrica de 4500 W",
+      "cashPrice": 2300,
+      "financedPrice": 2500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h7.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "G18 Pro 4500W",
+        "cc": 0,
+        "p": 2300,
+        "f": 2500,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Dirt bike eléctrica de 4500 W",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h7.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-65",
+      "name": "HappyRun G100 Pro 6000W",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Bicicleta eléctrica estilo café racer · 72 V · 6000 W · doble batería · vel. máx. 80 km/h",
+      "cashPrice": 2800,
+      "financedPrice": 3000,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h8.jpg"
+        },
+        {
+          "name": "Amarillo",
+          "color": "#e0b020",
+          "image": "f/fotos__hr-h9.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "G100 Pro 6000W",
+        "cc": 0,
+        "p": 2800,
+        "f": 3000,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Bicicleta eléctrica estilo café racer · 72 V · 6000 W · doble batería · vel. máx. 80 km/h",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h8.jpg"
+          },
+          {
+            "n": "Amarillo",
+            "h": "#e0b020",
+            "i": "f/fotos__hr-h9.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-66",
+      "name": "HappyRun G60",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Dirt bike eléctrica de llantas anchas, todo terreno · certificada UL 2849",
+      "cashPrice": 1700,
+      "financedPrice": 1900,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h10.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "G60",
+        "cc": 0,
+        "p": 1700,
+        "f": 1900,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Dirt bike eléctrica de llantas anchas, todo terreno · certificada UL 2849",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h10.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-67",
+      "name": "HappyRun G60 Pro",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Bicicleta eléctrica estilo moped todo terreno · motor de 750 W · batería de 25 Ah · vel. máx. 58 km/h · certificada UL 2849",
+      "cashPrice": 1900,
+      "financedPrice": 2100,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h11.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "G60 Pro",
+        "cc": 0,
+        "p": 1900,
+        "f": 2100,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Bicicleta eléctrica estilo moped todo terreno · motor de 750 W · batería de 25 Ah · vel. máx. 58 km/h · certificada UL 2849",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h11.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-68",
+      "name": "HappyRun G70",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Bicicleta eléctrica de carga · 750 W pico · 110 Nm de torque · doble batería · certificada UL 2849",
+      "cashPrice": 2000,
+      "financedPrice": 2200,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h12.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#7fae6a",
+          "image": "f/fotos__hr-h13.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "G70",
+        "cc": 0,
+        "p": 2000,
+        "f": 2200,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Bicicleta eléctrica de carga · 750 W pico · 110 Nm de torque · doble batería · certificada UL 2849",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h12.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#7fae6a",
+            "i": "f/fotos__hr-h13.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-69",
+      "name": "HappyRun G300 SE Ultra",
+      "brand": "HappyRun",
+      "category": "bicis",
+      "description": "Mini dirt bike eléctrica con motor central, para jóvenes y adultos",
+      "cashPrice": 2200,
+      "financedPrice": 2400,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos__hr-h14.jpg"
+        }
+      ],
+      "source": {
+        "b": "HappyRun",
+        "m": "G300 SE Ultra",
+        "cc": 0,
+        "p": 2200,
+        "f": 2400,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Mini dirt bike eléctrica con motor central, para jóvenes y adultos",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos__hr-h14.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-70",
+      "name": "Strike Shadow 72V",
+      "brand": "Strike",
+      "category": "bicis",
+      "description": "Dirt bike eléctrica · 7000 W pico · batería Samsung 72 V 25 Ah · hasta 80–85 km/h · ruedas 17\"/14\" (70/100-17 y 90/100-14) · suspensión Fast Ace · controlador 72 V 100 A · carga máx. 127 kg",
+      "cashPrice": 3600,
+      "financedPrice": 3900,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Blanco",
+          "color": "#f2f2f2",
+          "image": "f/fotos2__strike-s72w.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__strike-s72b.jpg"
+        },
+        {
+          "name": "Gris dorado",
+          "color": "#8a8070",
+          "image": "f/fotos2__strike-s72g.jpg"
+        }
+      ],
+      "source": {
+        "b": "Strike",
+        "m": "Shadow 72V",
+        "cc": 0,
+        "p": 3600,
+        "f": 3900,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Dirt bike eléctrica · 7000 W pico · batería Samsung 72 V 25 Ah · hasta 80–85 km/h · ruedas 17\"/14\" (70/100-17 y 90/100-14) · suspensión Fast Ace · controlador 72 V 100 A · carga máx. 127 kg",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Blanco",
+            "h": "#f2f2f2",
+            "i": "f/fotos2__strike-s72w.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__strike-s72b.jpg"
+          },
+          {
+            "n": "Gris dorado",
+            "h": "#8a8070",
+            "i": "f/fotos2__strike-s72g.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-71",
+      "name": "Strike Shadow 60V",
+      "brand": "Strike",
+      "category": "bicis",
+      "description": "Dirt bike eléctrica · 5000 W pico · batería 60 V 27 Ah · hasta 75–79 km/h · ruedas 17\"/14\" (70/100-17 y 90/100-14) · suspensión hidráulica · carga máx. 109 kg",
+      "cashPrice": 2900,
+      "financedPrice": 3100,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__strike-s60b.jpg"
+        },
+        {
+          "name": "Azul",
+          "color": "#1f6fd0",
+          "image": "f/fotos2__strike-s60a.jpg"
+        },
+        {
+          "name": "Blanco",
+          "color": "#f2f2f2",
+          "image": "f/fotos2__strike-s60w.jpg"
+        }
+      ],
+      "source": {
+        "b": "Strike",
+        "m": "Shadow 60V",
+        "cc": 0,
+        "p": 2900,
+        "f": 3100,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Dirt bike eléctrica · 5000 W pico · batería 60 V 27 Ah · hasta 75–79 km/h · ruedas 17\"/14\" (70/100-17 y 90/100-14) · suspensión hidráulica · carga máx. 109 kg",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__strike-s60b.jpg"
+          },
+          {
+            "n": "Azul",
+            "h": "#1f6fd0",
+            "i": "f/fotos2__strike-s60a.jpg"
+          },
+          {
+            "n": "Blanco",
+            "h": "#f2f2f2",
+            "i": "f/fotos2__strike-s60w.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-72",
+      "name": "Strike Shadow 48V",
+      "brand": "Strike",
+      "category": "bicis",
+      "description": "Dirt bike eléctrica · 3000 W pico · batería 48 V 23.4 Ah · hasta 51–55 km/h · ruedas 14\"×2.5 y 12\"×3.0 · suspensión hidráulica · carga máx. 82 kg",
+      "cashPrice": 2400,
+      "financedPrice": 2600,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": 200,
+      "shippingCuba": 500,
+      "variants": [
+        {
+          "name": "Blanco",
+          "color": "#f2f2f2",
+          "image": "f/fotos2__strike-s48w.jpg"
+        },
+        {
+          "name": "Rojo",
+          "color": "#c62828",
+          "image": "f/fotos2__strike-s48r.jpg"
+        },
+        {
+          "name": "Negro",
+          "color": "#1a1a1a",
+          "image": "f/fotos2__strike-s48b.jpg"
+        }
+      ],
+      "source": {
+        "b": "Strike",
+        "m": "Shadow 48V",
+        "cc": 0,
+        "p": 2400,
+        "f": 2600,
+        "n": "",
+        "d": "",
+        "k": "ebike",
+        "s": "Dirt bike eléctrica · 3000 W pico · batería 48 V 23.4 Ah · hasta 51–55 km/h · ruedas 14\"×2.5 y 12\"×3.0 · suspensión hidráulica · carga máx. 82 kg",
+        "u": 200,
+        "cu": 500,
+        "c": [
+          {
+            "n": "Blanco",
+            "h": "#f2f2f2",
+            "i": "f/fotos2__strike-s48w.jpg"
+          },
+          {
+            "n": "Rojo",
+            "h": "#c62828",
+            "i": "f/fotos2__strike-s48r.jpg"
+          },
+          {
+            "n": "Negro",
+            "h": "#1a1a1a",
+            "i": "f/fotos2__strike-s48b.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-73",
+      "name": "Izuki Predator Super-Max 4500W",
+      "brand": "Izuki",
+      "category": "electricas",
+      "description": "Moto eléctrica deportiva · 4500 W · batería de litio 96 V 60 Ah · vel. máx. 80 km/h · autonomía hasta 150 km · frenos de disco hidráulicos · llantas de aluminio 17\" · Bluetooth",
+      "cashPrice": 4400,
+      "financedPrice": 4600,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 30 días",
+        "Envío a la casa",
+        "Aranceles pagos"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f4fb0",
+          "image": "f/fotos__em-predator-azul.jpg"
+        },
+        {
+          "name": "Negra",
+          "color": "#1a1a1a",
+          "image": "f/fotos__em-predator-negra.jpg"
+        },
+        {
+          "name": "Roja",
+          "color": "#c62828",
+          "image": "f/fotos__em-predator-roja.jpg"
+        }
+      ],
+      "source": {
+        "b": "Izuki",
+        "m": "Predator Super-Max 4500W",
+        "cc": 0,
+        "p": 4400,
+        "f": 4600,
+        "n": "",
+        "d": "",
+        "k": "emoto",
+        "s": "Moto eléctrica deportiva · 4500 W · batería de litio 96 V 60 Ah · vel. máx. 80 km/h · autonomía hasta 150 km · frenos de disco hidráulicos · llantas de aluminio 17\" · Bluetooth",
+        "t": [
+          "d30",
+          "casa",
+          "aran"
+        ],
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f4fb0",
+            "i": "f/fotos__em-predator-azul.jpg"
+          },
+          {
+            "n": "Negra",
+            "h": "#1a1a1a",
+            "i": "f/fotos__em-predator-negra.jpg"
+          },
+          {
+            "n": "Roja",
+            "h": "#c62828",
+            "i": "f/fotos__em-predator-roja.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-74",
+      "name": "Izuki Challenger 3000W",
+      "brand": "Izuki",
+      "category": "electricas",
+      "description": "Moto eléctrica · 3000 W · batería de litio 72 V 50 Ah · vel. máx. 65 km/h · autonomía hasta 150 km · 3 velocidades · frenos de disco · suspensión hidráulica · carga máx. 156 kg",
+      "cashPrice": 3300,
+      "financedPrice": 3500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 30 a 45 días",
+        "Envío a la casa",
+        "Aranceles pagos"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f4fb0",
+          "image": "f/fotos__em-izuki-azul.jpg"
+        },
+        {
+          "name": "Morada",
+          "color": "#7b3fc4",
+          "image": "f/fotos__em-izuki-morada.jpg"
+        },
+        {
+          "name": "Negra",
+          "color": "#1a1a1a",
+          "image": "f/fotos__em-izuki-negra.jpg"
+        }
+      ],
+      "source": {
+        "b": "Izuki",
+        "m": "Challenger 3000W",
+        "cc": 0,
+        "p": 3300,
+        "f": 3500,
+        "n": "",
+        "d": "",
+        "k": "emoto",
+        "s": "Moto eléctrica · 3000 W · batería de litio 72 V 50 Ah · vel. máx. 65 km/h · autonomía hasta 150 km · 3 velocidades · frenos de disco · suspensión hidráulica · carga máx. 156 kg",
+        "t": [
+          "d3045",
+          "casa",
+          "aran"
+        ],
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f4fb0",
+            "i": "f/fotos__em-izuki-azul.jpg"
+          },
+          {
+            "n": "Morada",
+            "h": "#7b3fc4",
+            "i": "f/fotos__em-izuki-morada.jpg"
+          },
+          {
+            "n": "Negra",
+            "h": "#1a1a1a",
+            "i": "f/fotos__em-izuki-negra.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-75",
+      "name": "Topmax 2 2000W",
+      "brand": "",
+      "category": "electricas",
+      "description": "Bicimoto eléctrica · 2000 W · batería de litio 48 V 40 Ah · vel. máx. 50 km/h · autonomía 85–90 km · frenos de disco · reversa · encendido NFC y control remoto · carga máx. 170 kg",
+      "cashPrice": 2500,
+      "financedPrice": 2700,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 30 a 45 días"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f4fb0",
+          "image": "f/fotos__em-topmax2-azul.jpg"
+        },
+        {
+          "name": "Morada",
+          "color": "#7b3fc4",
+          "image": "f/fotos__em-topmax2-morada.jpg"
+        },
+        {
+          "name": "Negra",
+          "color": "#1a1a1a",
+          "image": "f/fotos__em-topmax2-negra.jpg"
+        },
+        {
+          "name": "Roja",
+          "color": "#c62828",
+          "image": "f/fotos__em-topmax2-roja.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Topmax 2 2000W",
+        "cc": 0,
+        "p": 2500,
+        "f": 2700,
+        "n": "",
+        "d": "",
+        "k": "emoto",
+        "s": "Bicimoto eléctrica · 2000 W · batería de litio 48 V 40 Ah · vel. máx. 50 km/h · autonomía 85–90 km · frenos de disco · reversa · encendido NFC y control remoto · carga máx. 170 kg",
+        "t": [
+          "d3045"
+        ],
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f4fb0",
+            "i": "f/fotos__em-topmax2-azul.jpg"
+          },
+          {
+            "n": "Morada",
+            "h": "#7b3fc4",
+            "i": "f/fotos__em-topmax2-morada.jpg"
+          },
+          {
+            "n": "Negra",
+            "h": "#1a1a1a",
+            "i": "f/fotos__em-topmax2-negra.jpg"
+          },
+          {
+            "n": "Roja",
+            "h": "#c62828",
+            "i": "f/fotos__em-topmax2-roja.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-76",
+      "name": "Topmax 2000W",
+      "brand": "",
+      "category": "electricas",
+      "description": "Bicimoto eléctrica · 2000 W · batería de litio 60 V 30 Ah · vel. máx. 50 km/h · autonomía hasta 95 km · reversa · encendido NFC y control remoto · parlante Bluetooth · canasta delantera",
+      "cashPrice": 2500,
+      "financedPrice": 2700,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 30 a 45 días"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Morada",
+          "color": "#7b3fc4",
+          "image": "f/fotos__em-topmax-morada.jpg"
+        },
+        {
+          "name": "Roja",
+          "color": "#c62828",
+          "image": "f/fotos__em-topmax-roja.jpg"
+        },
+        {
+          "name": "Verde",
+          "color": "#3cbf3c",
+          "image": "f/fotos__em-topmax-verde.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Topmax 2000W",
+        "cc": 0,
+        "p": 2500,
+        "f": 2700,
+        "n": "",
+        "d": "",
+        "k": "emoto",
+        "s": "Bicimoto eléctrica · 2000 W · batería de litio 60 V 30 Ah · vel. máx. 50 km/h · autonomía hasta 95 km · reversa · encendido NFC y control remoto · parlante Bluetooth · canasta delantera",
+        "t": [
+          "d3045"
+        ],
+        "c": [
+          {
+            "n": "Morada",
+            "h": "#7b3fc4",
+            "i": "f/fotos__em-topmax-morada.jpg"
+          },
+          {
+            "n": "Roja",
+            "h": "#c62828",
+            "i": "f/fotos__em-topmax-roja.jpg"
+          },
+          {
+            "n": "Verde",
+            "h": "#3cbf3c",
+            "i": "f/fotos__em-topmax-verde.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-77",
+      "name": "Xmox Eagle Pro eléctrica",
+      "brand": "Xmox",
+      "category": "electricas",
+      "description": "Scooter eléctrica tipo maxi-scooter · motor de 2000 W · batería de litio 72 V 45 Ah · autonomía 120 km · parabrisas alto · luces LED",
+      "cashPrice": 3300,
+      "financedPrice": 3500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f4fb0",
+          "image": "f/fotos__em-eagle-azul.jpg"
+        },
+        {
+          "name": "Negra",
+          "color": "#1a1a1a",
+          "image": "f/fotos__em-eagle-negra.jpg"
+        },
+        {
+          "name": "Roja",
+          "color": "#c62828",
+          "image": "f/fotos__em-eagle-roja.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "Eagle Pro eléctrica",
+        "cc": 0,
+        "p": 3300,
+        "f": 3500,
+        "n": "",
+        "d": "",
+        "k": "emoto",
+        "s": "Scooter eléctrica tipo maxi-scooter · motor de 2000 W · batería de litio 72 V 45 Ah · autonomía 120 km · parabrisas alto · luces LED",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f4fb0",
+            "i": "f/fotos__em-eagle-azul.jpg"
+          },
+          {
+            "n": "Negra",
+            "h": "#1a1a1a",
+            "i": "f/fotos__em-eagle-negra.jpg"
+          },
+          {
+            "n": "Roja",
+            "h": "#c62828",
+            "i": "f/fotos__em-eagle-roja.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-78",
+      "name": "Xmox Avispon eléctrica",
+      "brand": "Xmox",
+      "category": "electricas",
+      "description": "Scooter eléctrica · motor de 2000 W · batería de litio 72 V 45 Ah · autonomía 120 km · doble faro LED · parrilla delantera y trasera",
+      "cashPrice": 3300,
+      "financedPrice": 3500,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Azul",
+          "color": "#1f4fb0",
+          "image": "f/fotos__em-avispon-azul.jpg"
+        },
+        {
+          "name": "Roja",
+          "color": "#c62828",
+          "image": "f/fotos__em-avispon-roja.jpg"
+        },
+        {
+          "name": "Negra",
+          "color": "#1a1a1a",
+          "image": "f/fotos__em-avispon-negra.jpg"
+        }
+      ],
+      "source": {
+        "b": "Xmox",
+        "m": "Avispon eléctrica",
+        "cc": 0,
+        "p": 3300,
+        "f": 3500,
+        "n": "",
+        "d": "",
+        "k": "emoto",
+        "s": "Scooter eléctrica · motor de 2000 W · batería de litio 72 V 45 Ah · autonomía 120 km · doble faro LED · parrilla delantera y trasera",
+        "c": [
+          {
+            "n": "Azul",
+            "h": "#1f4fb0",
+            "i": "f/fotos__em-avispon-azul.jpg"
+          },
+          {
+            "n": "Roja",
+            "h": "#c62828",
+            "i": "f/fotos__em-avispon-roja.jpg"
+          },
+          {
+            "n": "Negra",
+            "h": "#1a1a1a",
+            "i": "f/fotos__em-avispon-negra.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "producto-79",
+      "name": "Onyx",
+      "brand": "",
+      "category": "electricas",
+      "description": "",
+      "cashPrice": 1500,
+      "financedPrice": 1700,
+      "notes": "",
+      "deliveryDays": "",
+      "tags": [
+        "Envío en 60 días"
+      ],
+      "shippingUSA": null,
+      "shippingCuba": null,
+      "variants": [
+        {
+          "name": "Morada",
+          "color": "#7b3fc4",
+          "image": "f/fotos__em-onyx-morada.jpg"
+        },
+        {
+          "name": "Negra",
+          "color": "#1a1a1a",
+          "image": "f/fotos__em-onyx-negra.jpg"
+        },
+        {
+          "name": "Blanca",
+          "color": "#f4f4f4",
+          "image": "f/fotos__em-onyx-blanca.jpg"
+        },
+        {
+          "name": "Rosa",
+          "color": "#f2b8c0",
+          "image": "f/fotos__em-onyx-rosa.jpg"
+        }
+      ],
+      "source": {
+        "b": "",
+        "m": "Onyx",
+        "cc": 0,
+        "p": 1500,
+        "f": 1700,
+        "n": "",
+        "d": "",
+        "k": "emoto",
+        "t": [
+          "d60"
+        ],
+        "c": [
+          {
+            "n": "Morada",
+            "h": "#7b3fc4",
+            "i": "f/fotos__em-onyx-morada.jpg"
+          },
+          {
+            "n": "Negra",
+            "h": "#1a1a1a",
+            "i": "f/fotos__em-onyx-negra.jpg"
+          },
+          {
+            "n": "Blanca",
+            "h": "#f4f4f4",
+            "i": "f/fotos__em-onyx-blanca.jpg"
+          },
+          {
+            "n": "Rosa",
+            "h": "#f2b8c0",
+            "i": "f/fotos__em-onyx-rosa.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}
