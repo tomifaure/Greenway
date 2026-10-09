@@ -25,3 +25,5 @@ La web no procesa pagos ni pedidos: la consulta se realiza por WhatsApp una vez 
 ## Presentación comercial
 
 Los importes fueron eliminados del catálogo público. `priceOrder` guarda solo un índice relativo para ordenar productos; no contiene el precio. Para actualizar el orden, modificar esos índices. El rendimiento orientativo de los seis kits solares está en `performance`. Contacto: Fast Motors Miami, WhatsApp +1 (754) 267-2265, 7929 NE 1st Ave, Miami, FL 33138-4305, United States. Las ilustraciones decorativas SVG originales están en `assets/`.
+
+La presentación incluye acentos rojos, azules y blancos, bandera en portada y franjas ilustradas de La Habana, playas y Viñales cada nueve productos visibles. Las 12 bicis y dirt bikes tienen `shippingNotice` para anunciar envíos a Cuba y EE. UU. en tarjetas y fichas, por instrucción del usuario.
