@@ -1,75 +1,70 @@
-const $ = s => document.querySelector(s);
-const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const normalize = s => String(s).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
-let catalog,settings,active='all',selected=new Map(),detailProduct,opener;
-const priceBoxes = () => '<p class="price-inquiry">Consultá el precio por WhatsApp.</p>';
-const category = p => catalog.categories.find(c=>c.id===p.category)?.name ?? p.category;
-const variant = p => p.variants[selected.get(p.id)??0];
-const swatches = p => `<div class="swatches" role="group" aria-label="Colores de ${esc(p.name)}">${p.variants.map((v,i)=>`<button class="swatch" style="--swatch:${esc(v.color)}" data-product="${p.id}" data-variant="${i}" aria-label="${esc(v.name)}" title="${esc(v.name)}" aria-pressed="${i===(selected.get(p.id)??0)}"></button>`).join('')}<span class="variant-name">${esc(variant(p)?.name??'Color pendiente')}</span></div>`;
-function whatsapp(p){
- if(!settings.whatsapp) return '<a class="wa-btn" href="#contacto" aria-label="WhatsApp pendiente de configurar para Greenway">WhatsApp · pendiente</a>';
- const msg=p?`Hola, me interesa ${p.name}, ${variant(p)?.name??''}. ¿Me pueden informar el precio y dar más información?`:'Hola, quiero información sobre el catálogo de Greenway.';
- return `<a class="wa-btn" href="https://wa.me/${encodeURIComponent(settings.whatsapp)}?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp ↗</a>`;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const normalize=s=>String(s).normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
+let catalog,settings,active='all',selected=new Map(),detailProduct,opener,visible=12;
+const compared=new Set();
+const product=id=>catalog.products.find(p=>p.id===id);
+const category=p=>catalog.categories.find(c=>c.id===p.category)?.name??p.category;
+const variant=p=>p.variants[selected.get(p.id)??0];
+const waUrl=message=>`https://wa.me/${settings.whatsapp}?text=${encodeURIComponent(message)}`;
+function whatsapp(p,label='Consultar precio'){
+ const text=p?`Hola Fast Motors Miami, quiero conocer el precio y la disponibilidad de ${p.name}, color ${variant(p)?.name??''}.`:'Hola Fast Motors Miami, quiero asesoramiento sobre el catálogo de Greenway.';
+ return `<a class="wa-btn" href="${esc(waUrl(text))}" target="_blank" rel="noopener noreferrer">${esc(label)} <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></span><span class="sr-only"> por WhatsApp</span></a>`;
 }
-function cubaBanner(index){
- const scenes=[{image:'havana.svg',name:'La Habana',text:'El encanto de nuestras calles.'},{image:'cuba-landscape.svg',name:'Playas de Cuba',text:'El azul que siempre llevamos con nosotros.'},{image:'vinales.svg',name:'Viñales',text:'El verde de nuestra tierra.'}];
- const scene=scenes[index%scenes.length];
- return `<aside class="cuba-banner" style="--scene:url('assets/${scene.image}')"><div><span class="eyebrow">UN PEDACITO DE CUBA</span><h3>${scene.name}</h3><p>${scene.text}</p></div><img src="assets/cuba-flag.svg" alt="Bandera de Cuba" width="90" height="45" loading="lazy"></aside>`;
-}
+function swatches(p){return `<div class="swatches" role="group" aria-label="Colores de ${esc(p.name)}">${p.variants.map((v,i)=>`<button class="swatch" style="--swatch:${esc(v.color)}" data-product="${p.id}" data-variant="${i}" aria-label="${esc(v.name)}" title="${esc(v.name)}" aria-pressed="${i===(selected.get(p.id)??0)}"></button>`).join('')}<span class="variant-name">${esc(variant(p)?.name??'Color pendiente')}</span></div>`;}
+function card(p){return `<article class="card" data-id="${p.id}"><button class="image-button" data-detail="${p.id}" aria-label="Ver detalle de ${esc(p.name)}"><span class="category-label">${esc(category(p))}</span><img class="card-photo" src="${esc(variant(p)?.image)}" alt="${esc(p.name+' · '+variant(p)?.name)}" loading="lazy" width="400" height="280"></button><div class="card-body"><h3>${esc(p.name)}</h3><p class="description">${esc(p.description||'Descripción pendiente de completar.')}</p>${swatches(p)}${p.shippingNotice?`<p class="shipping-notice">${esc(p.shippingNotice)}</p>`:''}<p class="price-inquiry">Consulta el precio por WhatsApp.</p><div class="card-actions"><button class="detail-btn" data-detail="${p.id}">Ver detalles</button>${whatsapp(p)}</div><button class="compare-toggle" data-compare="${p.id}" aria-pressed="${compared.has(p.id)}">${compared.has(p.id)?'✓ Seleccionado para comparar':'+ Comparar este modelo'}</button></div></article>`;}
+function cubaBanner(index){const scenes=[{image:'havana.svg',name:'La Habana',text:'El encanto de nuestras calles.'},{image:'cuba-landscape.svg',name:'Playas de Cuba',text:'El azul que siempre llevamos con nosotros.'},{image:'vinales.svg',name:'Viñales',text:'El verde de nuestra tierra.'}];const scene=scenes[index%3];return `<aside class="cuba-banner" style="--scene:url('assets/${scene.image}')"><div><span class="eyebrow">UN PEDACITO DE CUBA</span><h3>${scene.name}</h3><p>${scene.text}</p></div><img src="assets/cuba-flag.svg" alt="Bandera de Cuba" width="90" height="45" loading="lazy"></aside>`;}
 function render(){
- const q=normalize($('#search').value.trim());
- const list=catalog.products.filter(p=>(active==='all'||p.category===active)&&normalize([p.name,p.brand,p.description,category(p),...p.variants.map(v=>v.name)].join(' ')).includes(q));
+ const q=normalize($('#search').value.trim());const list=catalog.products.filter(p=>(active==='all'||p.category===active||(active==='dirt'&&p.category==='bicis'&&normalize(p.description).includes('dirt bike'))||(active==='ebikes'&&p.category==='bicis'&&!normalize(p.description).includes('dirt bike')))&&normalize([p.name,p.brand,p.description,category(p),...p.variants.map(v=>v.name)].join(' ')).includes(q));
  const sort=$('#sort').value;
  if(sort!=='default')list.sort((a,b)=>a.priceOrder==null?(b.priceOrder==null?0:1):b.priceOrder==null?-1:sort==='asc'?a.priceOrder-b.priceOrder:b.priceOrder-a.priceOrder);
- $('#count').textContent=`${list.length} de ${catalog.products.length} productos`;
- $('#empty').hidden=!!list.length;
- $('#products').innerHTML=list.map((p,index)=>`${index>0 && index%9===0?cubaBanner(Math.floor(index/9)-1):''}<article class="card" data-id="${p.id}"><button class="image-button" data-detail="${p.id}" aria-label="Ver detalle de ${esc(p.name)}"><span class="category-label">${esc(category(p))}</span><img class="card-photo" src="${esc(variant(p)?.image)}" alt="${esc(p.name+' · '+variant(p)?.name)}" loading="lazy" width="400" height="280"></button><div class="card-body"><h3>${esc(p.name)}</h3><p class="description">${esc(p.description||'Descripción pendiente de completar.')}</p>${swatches(p)}${p.shippingNotice?`<p class="shipping-notice">${esc(p.shippingNotice)}</p>`:''}${priceBoxes(p)}<div class="card-actions"><button class="detail-btn" data-detail="${p.id}">Ver detalles ↗</button>${whatsapp(p)}</div></div></article>`).join('');
- $('#categories').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.category===active));
+ else list.sort((a,b)=>catalog.categories.findIndex(c=>c.id===a.category)-catalog.categories.findIndex(c=>c.id===b.category));
+ const shown=list.slice(0,visible);$('#count').textContent=`${shown.length} de ${list.length} productos${active==='all'&&!q?' en el catálogo':''}`;$('#empty').hidden=!!list.length;$('#load-more').hidden=shown.length===list.length;
+ let last=null,banner=0;$('#products').innerHTML=shown.map(p=>{const start=sort==='default'&&p.category!==last;const separator=start&&last!==null?cubaBanner(banner++):'';last=p.category;return separator+(start?`<h3 class="group-title">${esc(category(p))}</h3>`:'')+card(p);}).join('');
+ $('#featured-products').innerHTML=settings.featuredIds.map(product).filter(Boolean).map(card).join('');
+ $('#categories').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.category===active));updateCompareBar();
 }
+function chooseCategory(id){active=id;visible=12;$('#search').value='';$('#sort').value='default';render();$('#catalogo').scrollIntoView({behavior:'smooth'});}
 function detail(p){
- detailProduct=p;
- const items=[p.deliveryDays?`Plazo indicado en la ficha: ${p.deliveryDays} días`:'',...p.tags].filter(Boolean);
- $('#detail-content').innerHTML=`<div class="detail-layout"><div><img src="${esc(variant(p)?.image)}" alt="${esc(p.name+' · '+variant(p)?.name)}">${swatches(p)}</div><div><p class="eyebrow">${esc(category(p))}</p><h2 id="detail-title">${esc(p.name)}</h2><p>${esc(p.description||'Descripción pendiente de completar.')}</p>${priceBoxes(p)}${p.shippingNotice?`<p class="shipping-notice">${esc(p.shippingNotice)}</p>`:''}${p.performance?`<section class="performance"><h3>Rendimiento orientativo</h3><p>${esc(p.performance)}</p><small>Estimación orientativa: depende del consumo de los equipos, las horas de uso y las condiciones solares.</small></section>`:''}${items.length?`<ul>${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}<p class="small">Fuente: ${esc(catalog.source)}. Confirmá precios, entrega y disponibilidad antes de comprar.</p>${whatsapp(p)}</div></div>`;
+ detailProduct=p;const items=[p.deliveryDays?`Plazo indicado en la ficha: ${p.deliveryDays} días`:'',...p.tags].filter(Boolean);
+ $('#detail-content').innerHTML=`<div class="detail-layout"><div><img src="${esc(variant(p)?.image)}" alt="${esc(p.name+' · '+variant(p)?.name)}">${swatches(p)}</div><div><p class="eyebrow">${esc(category(p))}</p><h2 id="detail-title">${esc(p.name)}</h2><p>${esc(p.description||'Descripción pendiente de completar.')}</p>${p.shippingNotice?`<p class="shipping-notice">${esc(p.shippingNotice)}</p>`:''}${p.performance?`<section class="performance"><h3>Rendimiento orientativo</h3><p>${esc(p.performance)}</p><small>Estimación orientativa: depende del consumo de los equipos, las horas de uso y las condiciones solares.</small></section>`:''}${items.length?`<ul>${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}<p class="small">Te atiende Fast Motors Miami, vendedor de Greenway. Consulta precio y disponibilidad antes de comprar.</p><button class="compare-toggle" data-compare="${p.id}" aria-pressed="${compared.has(p.id)}">${compared.has(p.id)?'✓ Seleccionado para comparar':'+ Comparar este modelo'}</button><button class="share-product" data-share="${p.id}">Copiar enlace del producto</button></div></div><div class="detail-cta">${whatsapp(p)}${p.category==='kits'?`<a class="advice-btn" href="${esc(waUrl('Hola Fast Motors Miami, ayúdame a elegir mi kit solar. Quiero alimentar estos equipos: '))}" target="_blank" rel="noopener noreferrer">Ayúdame a elegir mi kit</a>`:''}</div>`;
 }
-function closeDetail(){ $('#detail').close();detailProduct=null;opener?.focus(); }
+function openDetail(p,trigger){opener=trigger;detail(p);$('#detail').showModal();$('#detail').scrollTop=0;}
+function closeDetail(){$('#detail').close();detailProduct=null;if(opener?.isConnected)opener.focus();}
+function updateCompareBar(){const count=compared.size;$('#compare-bar').hidden=!count;$('#compare-status').textContent=count?`${count}/3 · ${category(product([...compared][0]))}`:'';$('#open-compare').disabled=count<2;document.body.classList.toggle('has-comparison',count>0);}
+function toggleCompare(id){
+ if(compared.has(id))compared.delete(id);
+ else{const first=product([...compared][0]);if(first&&first.category!==product(id).category){$('#action-status').textContent='Selecciona productos de la misma categoría. Limpia la selección para cambiar de categoría.';$('#compare-status').textContent=$('#action-status').textContent;return;}if(compared.size===3){$('#action-status').textContent='Puedes comparar hasta tres productos. Quita uno para agregar otro.';$('#compare-status').textContent=$('#action-status').textContent;return;}compared.add(id);}
+ render();if(detailProduct)detail(detailProduct);
+}
+function comparison(){
+ const items=[...compared].map(product);const rows=[['Categoría',p=>category(p)],['Marca',p=>p.brand||'No indicada'],['Características',p=>p.description||'Descripción pendiente de completar.'],['Rendimiento orientativo',p=>p.performance||'No indicado'],['Colores',p=>p.variants.map(v=>v.name).join(', ')],['Tipo de batería y otras características',p=>p.tags.join(' · ')||'No indicado']];
+ $('#comparison-content').innerHTML=`<p>Compara las características del catálogo y consulta el precio de cada modelo. Los datos no indicados requieren confirmación con tu vendedor.</p><div class="comparison-scroll" tabindex="0" aria-label="Tabla de comparación, desplázala horizontalmente para ver todos los modelos"><table><thead><tr><th scope="col">Características</th>${items.map(p=>`<th scope="col"><img src="${esc(variant(p).image)}" alt="${esc(p.name)}" width="200" height="140">${esc(p.name)}</th>`).join('')}</tr></thead><tbody>${rows.filter(([label])=>label!=='Rendimiento orientativo'||items.some(p=>p.performance)).map(([label,value])=>`<tr><th scope="row">${label}</th>${items.map(p=>`<td>${esc(value(p))}</td>`).join('')}</tr>`).join('')}<tr><th scope="row">Precio</th>${items.map(p=>`<td>${whatsapp(p)}</td>`).join('')}</tr></tbody></table></div>`;$('#comparison').showModal();
+}
 async function init(){
- try{
- const responses=await Promise.all([fetch('data/catalog.json'),fetch('data/settings.json')]);
- if(responses.some(r=>!r.ok))throw Error('Catalog unavailable');
- [catalog,settings]=await Promise.all(responses.map(r=>r.json()));
- const heroSlides = [
-  {category:'Triciclos',id:'producto-42'},
-  {category:'Kits de paneles solares',id:'producto-57'},
-  {category:'Motos',id:'producto-14'},
-  {category:'Dirt bikes',id:'producto-61'},
-  {category:'Bicis eléctricas',id:'producto-68',color:'Verde'}
- ].map(slide=>({...slide,product:catalog.products.find(p=>p.id===slide.id)})).filter(slide=>slide.product);
- let heroIndex=0;
- const showHeroSlide=()=>{
-  const slide=heroSlides[heroIndex],product=slide.product;
-  const photo=product.variants.find(v=>v.name===slide.color)??product.variants[0];
-  $('#hero-image').src=photo.image;
-  $('#hero-image').alt=slide.category+' · '+product.name+' · '+photo.name;
-  $('#hero-name').textContent=product.name;
-  $('.art-label').textContent=slide.category.toUpperCase();
- };
- heroSlides.forEach(slide=>{const photo=slide.product.variants.find(v=>v.name===slide.color)??slide.product.variants[0];const image=new Image();image.src=photo.image;});
- showHeroSlide();
- setInterval(()=>{heroIndex=(heroIndex+1)%heroSlides.length;showHeroSlide();},3000);
+ try{const res=await Promise.all([fetch('data/catalog.json'),fetch('data/settings.json')]);if(res.some(r=>!r.ok))throw Error('Catálogo no disponible');[catalog,settings]=await Promise.all(res.map(r=>r.json()));
+ const ids=['triciclos','kits','motos','bicis','electricas','atv','equipos'];catalog.categories.sort((a,b)=>ids.indexOf(a.id)-ids.indexOf(b.id));
+ const slides=[{category:'Triciclos',id:'producto-42'},{category:'Kits de paneles solares',id:'producto-57'},{category:'Motos',id:'producto-14'},{category:'Dirt bikes',id:'producto-61'},{category:'Bicis eléctricas',id:'producto-68',color:'Verde'}];let index=0,paused=false;
+ function show(){const slide=slides[index],p=product(slide.id),v=p.variants.find(v=>v.name===slide.color)??p.variants[0];$('#hero-image').src=v.image;$('#hero-image').alt=`${slide.category} · ${p.name} · ${v.name}`;$('#hero-name').textContent=p.name;$('.art-label').textContent=slide.category.toUpperCase();$('#hero-product-link').dataset.detail=p.id;$('#hero-product-link').setAttribute('aria-label',`Ver ${p.name}`);}
+ slides.forEach(s=>{const p=product(s.id);const v=p.variants.find(v=>v.name===s.color)??p.variants[0];new Image().src=v.image;});show();setInterval(()=>{if(!paused&&!document.hidden&&!$('dialog[open]')){index=(index+1)%slides.length;show();}},3000);
+ $('#hero-prev').onclick=()=>{index=(index+slides.length-1)%slides.length;show();};$('#hero-next').onclick=()=>{index=(index+1)%slides.length;show();};$('#hero-pause').onclick=()=>{paused=!paused;$('#hero-pause').textContent=paused?'Reanudar':'Pausar';$('#hero-pause').setAttribute('aria-pressed',paused);};
+ $('#hero-categories').innerHTML=[['triciclos','Triciclos'],['kits','Kits solares'],['motos','Motos'],['dirt','Dirt bikes'],['ebikes','Bicis eléctricas']].map(([id,name])=>`<button data-category="${id}">${name}</button>`).join('');
  $('#categories').innerHTML=[{id:'all',name:'Todos'},...catalog.categories].map(c=>`<button data-category="${c.id}" aria-pressed="${c.id==='all'}">${esc(c.name)}</button>`).join('');
- $('#contact-fields').innerHTML=`<p><b>${esc(settings.contactName)}</b> · <a href="https://wa.me/${settings.whatsapp}" target="_blank" rel="noopener noreferrer">WhatsApp +1 (754) 267-2265</a></p><p><b>Ubicación:</b> ${esc(settings.address)}</p>${whatsapp()}`;
- render();
+ const map='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(settings.address);
+ $('#contact-fields').innerHTML=`<p><b>Greenway</b> · Empresa</p><p><b>Fast Motors Miami</b> · Tu vendedor en la tienda</p><p><a href="https://wa.me/${settings.whatsapp}" target="_blank" rel="noopener noreferrer">WhatsApp +1 (754) 267-2265</a></p><p><b>Horario:</b> ${esc(settings.hours)}</p><p><b>Ubicación:</b> ${esc(settings.address)}</p><a class="map-link" href="${esc(map)}" target="_blank" rel="noopener noreferrer">Ver ubicación en Google Maps <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>${whatsapp(null,'Hablar con Fast Motors Miami')}`;
+ $('#floating-wa').href=waUrl('Hola Fast Motors Miami, quiero asesoramiento sobre un producto de Greenway.');$('#floating-wa').target='_blank';$('#floating-wa').rel='noopener noreferrer';render();
+ const id=new URL(location.href).searchParams.get('producto');if(id&&product(id))openDetail(product(id));
  }catch(e){$('#error').hidden=false;$('#count').textContent='Catálogo no disponible';console.error(e);}
 }
-$('#search').addEventListener('input',()=>catalog&&render());$('#sort').addEventListener('change',()=>catalog&&render());
-$('#categories').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(b){active=b.dataset.category;render();}});
-$('#reset').addEventListener('click',()=>{active='all';$('#search').value='';$('#sort').value='default';render();});
-document.addEventListener('click',e=>{
+$('#search').addEventListener('input',()=>{visible=12;if(catalog)render();});$('#sort').addEventListener('change',()=>{visible=12;if(catalog)render();});$('#load-more').onclick=()=>{visible+=12;render();};
+$('#reset').onclick=()=>chooseCategory('all');$('#open-compare').onclick=comparison;$('#clear-compare').onclick=()=>{compared.clear();render();if(detailProduct)detail(detailProduct);};
+document.addEventListener('click',async e=>{
+ const cat=e.target.closest('[data-category]');if(cat){chooseCategory(cat.dataset.category);return;}
  const sw=e.target.closest('[data-variant]');if(sw){selected.set(sw.dataset.product,Number(sw.dataset.variant));render();if(detailProduct){detail(detailProduct);$('#detail').querySelector(`[data-variant="${sw.dataset.variant}"]`)?.focus();}return;}
- const b=e.target.closest('[data-detail]');if(b){opener=b;detail(catalog.products.find(p=>p.id===b.dataset.detail));$('#detail').showModal();}
- if(e.target.closest('#detail a[href="#contacto"]'))closeDetail();
+ const cmp=e.target.closest('[data-compare]');if(cmp){toggleCompare(cmp.dataset.compare);return;}
+ const share=e.target.closest('[data-share]');if(share){const url=new URL(location.href);url.searchParams.set('producto',share.dataset.share);url.hash='';try{await navigator.clipboard.writeText(url.href);share.textContent='Enlace copiado';}catch{prompt('Copia este enlace:',url.href);}return;}
+ const b=e.target.closest('[data-detail]');if(b){e.preventDefault();openDetail(product(b.dataset.detail),b);}
 });
-$('#detail .close').addEventListener('click',closeDetail);
-$('#detail').addEventListener('cancel',e=>{e.preventDefault();closeDetail();});
-$('#detail').addEventListener('click',e=>{if(e.target===$('#detail')){const r=$('#detail').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDetail();}});
+$('#detail .close').onclick=closeDetail;$('#detail').addEventListener('cancel',e=>{e.preventDefault();closeDetail();});$('#comparison .close').onclick=()=>$('#comparison').close();
+for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom){if(dialog.id==='detail')closeDetail();else dialog.close();}}});
 init();

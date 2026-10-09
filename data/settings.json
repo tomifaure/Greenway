@@ -4,5 +4,11 @@
   "email": null,
   "address": "7929 NE 1st Ave, Miami, FL 33138-4305, United States",
   "sourceWhatsapp": "17542672265",
-  "contactName": "Fast Motors Miami"
+  "contactName": "Fast Motors Miami",
+  "hours": "Todos los días, de 11:00 a. m. a 6:00 p. m. (hora de Miami)",
+  "featuredIds": [
+    "producto-42",
+    "producto-57",
+    "producto-64"
+  ]
 }
